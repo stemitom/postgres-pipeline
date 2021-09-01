@@ -1,0 +1,1379 @@
+[2021-09-01 00:14:44,345] {processor.py:162} INFO - Started process (PID=10461) to work on /opt/airflow/dags/test.py
+[2021-09-01 00:14:44,348] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 00:14:44,350] {logging_mixin.py:109} INFO - [2021-09-01 00:14:44,349] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 00:14:44,600] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 00:14:48,068] {logging_mixin.py:109} INFO - [2021-09-01 00:14:48,068] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 00:14:48,091] {logging_mixin.py:109} INFO - [2021-09-01 00:14:48,090] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 00:14:48,148] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 3.810 seconds
+[2021-09-01 00:15:18,766] {processor.py:162} INFO - Started process (PID=10477) to work on /opt/airflow/dags/test.py
+[2021-09-01 00:15:18,768] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 00:15:18,769] {logging_mixin.py:109} INFO - [2021-09-01 00:15:18,769] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 00:15:18,786] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 00:15:18,827] {logging_mixin.py:109} INFO - [2021-09-01 00:15:18,827] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 00:15:18,850] {logging_mixin.py:109} INFO - [2021-09-01 00:15:18,849] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 00:15:18,882] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.120 seconds
+[2021-09-01 01:20:15,551] {processor.py:162} INFO - Started process (PID=30) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:20:15,825] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:20:15,828] {logging_mixin.py:109} INFO - [2021-09-01 01:20:15,828] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:20:17,026] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:20:17,055] {logging_mixin.py:109} INFO - [2021-09-01 01:20:17,055] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:20:17,075] {logging_mixin.py:109} INFO - [2021-09-01 01:20:17,075] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:20:17,669] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 2.122 seconds
+[2021-09-01 01:20:47,727] {processor.py:162} INFO - Started process (PID=49) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:20:47,728] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:20:47,729] {logging_mixin.py:109} INFO - [2021-09-01 01:20:47,729] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:20:47,743] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:20:47,773] {logging_mixin.py:109} INFO - [2021-09-01 01:20:47,772] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:20:47,795] {logging_mixin.py:109} INFO - [2021-09-01 01:20:47,795] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:20:47,962] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.240 seconds
+[2021-09-01 01:21:18,116] {processor.py:162} INFO - Started process (PID=67) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:21:18,123] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:21:18,132] {logging_mixin.py:109} INFO - [2021-09-01 01:21:18,132] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:21:18,161] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:21:18,276] {logging_mixin.py:109} INFO - [2021-09-01 01:21:18,276] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:21:18,313] {logging_mixin.py:109} INFO - [2021-09-01 01:21:18,312] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:21:18,348] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.237 seconds
+[2021-09-01 01:21:49,267] {processor.py:162} INFO - Started process (PID=86) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:21:49,268] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:21:49,269] {logging_mixin.py:109} INFO - [2021-09-01 01:21:49,269] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:21:49,281] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:21:49,309] {logging_mixin.py:109} INFO - [2021-09-01 01:21:49,308] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:21:49,328] {logging_mixin.py:109} INFO - [2021-09-01 01:21:49,328] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:21:49,358] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.094 seconds
+[2021-09-01 01:22:19,481] {processor.py:162} INFO - Started process (PID=111) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:22:19,483] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:22:19,484] {logging_mixin.py:109} INFO - [2021-09-01 01:22:19,484] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:22:19,495] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:22:19,523] {logging_mixin.py:109} INFO - [2021-09-01 01:22:19,523] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:22:19,545] {logging_mixin.py:109} INFO - [2021-09-01 01:22:19,545] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:22:19,570] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.093 seconds
+[2021-09-01 01:22:49,704] {processor.py:162} INFO - Started process (PID=128) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:22:49,706] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:22:49,707] {logging_mixin.py:109} INFO - [2021-09-01 01:22:49,706] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:22:49,719] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:22:49,755] {logging_mixin.py:109} INFO - [2021-09-01 01:22:49,755] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:22:49,774] {logging_mixin.py:109} INFO - [2021-09-01 01:22:49,774] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:22:49,810] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.110 seconds
+[2021-09-01 01:23:19,930] {processor.py:162} INFO - Started process (PID=144) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:23:19,932] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:23:19,933] {logging_mixin.py:109} INFO - [2021-09-01 01:23:19,933] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:23:19,947] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:23:19,976] {logging_mixin.py:109} INFO - [2021-09-01 01:23:19,976] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:23:19,997] {logging_mixin.py:109} INFO - [2021-09-01 01:23:19,997] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:23:20,089] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.163 seconds
+[2021-09-01 01:23:50,178] {processor.py:162} INFO - Started process (PID=161) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:23:50,180] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:23:50,180] {logging_mixin.py:109} INFO - [2021-09-01 01:23:50,180] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:23:50,192] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:23:50,224] {logging_mixin.py:109} INFO - [2021-09-01 01:23:50,223] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:23:50,247] {logging_mixin.py:109} INFO - [2021-09-01 01:23:50,246] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:23:50,283] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.110 seconds
+[2021-09-01 01:24:20,403] {processor.py:162} INFO - Started process (PID=184) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:24:20,405] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:24:20,406] {logging_mixin.py:109} INFO - [2021-09-01 01:24:20,406] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:24:20,430] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:24:20,477] {logging_mixin.py:109} INFO - [2021-09-01 01:24:20,477] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:24:20,502] {logging_mixin.py:109} INFO - [2021-09-01 01:24:20,502] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:24:20,541] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.142 seconds
+[2021-09-01 01:24:50,619] {processor.py:162} INFO - Started process (PID=200) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:24:50,620] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:24:50,621] {logging_mixin.py:109} INFO - [2021-09-01 01:24:50,621] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:24:50,632] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:24:50,655] {logging_mixin.py:109} INFO - [2021-09-01 01:24:50,654] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:24:50,674] {logging_mixin.py:109} INFO - [2021-09-01 01:24:50,673] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:24:50,709] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.093 seconds
+[2021-09-01 01:25:20,843] {processor.py:162} INFO - Started process (PID=227) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:25:20,844] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:25:20,845] {logging_mixin.py:109} INFO - [2021-09-01 01:25:20,845] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:25:20,858] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:25:20,882] {logging_mixin.py:109} INFO - [2021-09-01 01:25:20,882] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:25:20,901] {logging_mixin.py:109} INFO - [2021-09-01 01:25:20,901] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:25:20,922] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.082 seconds
+[2021-09-01 01:25:51,053] {processor.py:162} INFO - Started process (PID=251) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:25:51,055] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:25:51,056] {logging_mixin.py:109} INFO - [2021-09-01 01:25:51,056] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:25:51,066] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:25:51,096] {logging_mixin.py:109} INFO - [2021-09-01 01:25:51,096] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:25:51,116] {logging_mixin.py:109} INFO - [2021-09-01 01:25:51,116] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:25:51,149] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.103 seconds
+[2021-09-01 01:26:21,288] {processor.py:162} INFO - Started process (PID=268) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:26:21,289] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:26:21,291] {logging_mixin.py:109} INFO - [2021-09-01 01:26:21,290] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:26:21,302] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:26:21,323] {logging_mixin.py:109} INFO - [2021-09-01 01:26:21,323] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:26:21,339] {logging_mixin.py:109} INFO - [2021-09-01 01:26:21,339] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:26:21,378] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.094 seconds
+[2021-09-01 01:26:51,519] {processor.py:162} INFO - Started process (PID=289) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:26:51,521] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:26:51,521] {logging_mixin.py:109} INFO - [2021-09-01 01:26:51,521] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:26:51,535] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:26:51,566] {logging_mixin.py:109} INFO - [2021-09-01 01:26:51,566] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:26:51,587] {logging_mixin.py:109} INFO - [2021-09-01 01:26:51,587] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:26:51,613] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.098 seconds
+[2021-09-01 01:27:21,741] {processor.py:162} INFO - Started process (PID=308) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:27:21,742] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:27:21,743] {logging_mixin.py:109} INFO - [2021-09-01 01:27:21,743] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:27:21,754] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:27:21,791] {logging_mixin.py:109} INFO - [2021-09-01 01:27:21,791] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:27:21,814] {logging_mixin.py:109} INFO - [2021-09-01 01:27:21,814] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:27:21,850] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.116 seconds
+[2021-09-01 01:27:51,959] {processor.py:162} INFO - Started process (PID=324) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:27:51,961] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:27:51,962] {logging_mixin.py:109} INFO - [2021-09-01 01:27:51,962] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:27:51,973] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:27:51,995] {logging_mixin.py:109} INFO - [2021-09-01 01:27:51,995] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:27:52,011] {logging_mixin.py:109} INFO - [2021-09-01 01:27:52,011] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:27:52,032] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.077 seconds
+[2021-09-01 01:28:22,146] {processor.py:162} INFO - Started process (PID=347) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:28:22,148] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:28:22,149] {logging_mixin.py:109} INFO - [2021-09-01 01:28:22,149] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:28:22,162] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:28:22,190] {logging_mixin.py:109} INFO - [2021-09-01 01:28:22,190] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:28:22,209] {logging_mixin.py:109} INFO - [2021-09-01 01:28:22,209] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:28:22,242] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.100 seconds
+[2021-09-01 01:28:52,377] {processor.py:162} INFO - Started process (PID=363) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:28:52,379] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:28:52,380] {logging_mixin.py:109} INFO - [2021-09-01 01:28:52,380] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:28:52,395] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:28:52,425] {logging_mixin.py:109} INFO - [2021-09-01 01:28:52,425] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:28:52,446] {logging_mixin.py:109} INFO - [2021-09-01 01:28:52,446] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:28:52,504] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.131 seconds
+[2021-09-01 01:29:22,653] {processor.py:162} INFO - Started process (PID=379) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:29:22,655] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:29:22,656] {logging_mixin.py:109} INFO - [2021-09-01 01:29:22,655] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:29:22,667] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:29:22,698] {logging_mixin.py:109} INFO - [2021-09-01 01:29:22,698] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:29:22,718] {logging_mixin.py:109} INFO - [2021-09-01 01:29:22,718] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:29:22,746] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.098 seconds
+[2021-09-01 01:29:52,880] {processor.py:162} INFO - Started process (PID=404) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:29:52,887] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:29:52,888] {logging_mixin.py:109} INFO - [2021-09-01 01:29:52,888] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:29:52,915] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:29:52,952] {logging_mixin.py:109} INFO - [2021-09-01 01:29:52,952] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:29:52,979] {logging_mixin.py:109} INFO - [2021-09-01 01:29:52,979] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:29:53,024] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.161 seconds
+[2021-09-01 01:30:23,155] {processor.py:162} INFO - Started process (PID=422) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:30:23,157] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:30:23,158] {logging_mixin.py:109} INFO - [2021-09-01 01:30:23,158] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:30:23,169] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:30:23,192] {logging_mixin.py:109} INFO - [2021-09-01 01:30:23,192] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:30:23,212] {logging_mixin.py:109} INFO - [2021-09-01 01:30:23,212] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:30:23,247] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.095 seconds
+[2021-09-01 01:30:53,360] {processor.py:162} INFO - Started process (PID=442) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:30:53,362] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:30:53,363] {logging_mixin.py:109} INFO - [2021-09-01 01:30:53,363] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:30:53,381] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:30:53,415] {logging_mixin.py:109} INFO - [2021-09-01 01:30:53,414] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:30:53,439] {logging_mixin.py:109} INFO - [2021-09-01 01:30:53,439] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:30:53,465] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.110 seconds
+[2021-09-01 01:31:23,576] {processor.py:162} INFO - Started process (PID=473) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:31:23,577] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:31:23,578] {logging_mixin.py:109} INFO - [2021-09-01 01:31:23,578] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:31:23,607] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:31:23,744] {logging_mixin.py:109} INFO - [2021-09-01 01:31:23,744] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:31:23,901] {logging_mixin.py:109} INFO - [2021-09-01 01:31:23,900] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:31:24,025] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.462 seconds
+[2021-09-01 01:31:54,738] {processor.py:162} INFO - Started process (PID=495) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:31:54,740] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:31:54,741] {logging_mixin.py:109} INFO - [2021-09-01 01:31:54,740] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:31:54,751] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:31:54,786] {logging_mixin.py:109} INFO - [2021-09-01 01:31:54,786] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:31:54,807] {logging_mixin.py:109} INFO - [2021-09-01 01:31:54,807] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:31:54,837] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.108 seconds
+[2021-09-01 01:32:24,963] {processor.py:162} INFO - Started process (PID=520) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:32:24,965] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:32:24,966] {logging_mixin.py:109} INFO - [2021-09-01 01:32:24,966] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:32:24,977] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:32:25,010] {logging_mixin.py:109} INFO - [2021-09-01 01:32:25,010] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:32:25,032] {logging_mixin.py:109} INFO - [2021-09-01 01:32:25,032] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:32:25,060] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.104 seconds
+[2021-09-01 01:32:55,156] {processor.py:162} INFO - Started process (PID=542) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:32:55,158] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:32:55,159] {logging_mixin.py:109} INFO - [2021-09-01 01:32:55,159] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:32:55,171] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:32:55,210] {logging_mixin.py:109} INFO - [2021-09-01 01:32:55,209] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:32:55,233] {logging_mixin.py:109} INFO - [2021-09-01 01:32:55,233] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:32:55,272] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.122 seconds
+[2021-09-01 01:33:25,361] {processor.py:162} INFO - Started process (PID=572) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:33:25,363] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:33:25,364] {logging_mixin.py:109} INFO - [2021-09-01 01:33:25,364] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:33:25,406] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:33:25,439] {logging_mixin.py:109} INFO - [2021-09-01 01:33:25,439] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:33:25,463] {logging_mixin.py:109} INFO - [2021-09-01 01:33:25,463] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:33:25,503] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.146 seconds
+[2021-09-01 01:33:56,514] {processor.py:162} INFO - Started process (PID=592) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:33:56,516] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:33:56,517] {logging_mixin.py:109} INFO - [2021-09-01 01:33:56,517] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:33:56,544] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:33:56,606] {logging_mixin.py:109} INFO - [2021-09-01 01:33:56,606] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:33:56,645] {logging_mixin.py:109} INFO - [2021-09-01 01:33:56,645] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:33:56,669] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.172 seconds
+[2021-09-01 01:34:26,787] {processor.py:162} INFO - Started process (PID=620) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:34:26,788] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:34:26,789] {logging_mixin.py:109} INFO - [2021-09-01 01:34:26,789] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:34:26,806] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:34:26,839] {logging_mixin.py:109} INFO - [2021-09-01 01:34:26,839] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:34:26,866] {logging_mixin.py:109} INFO - [2021-09-01 01:34:26,866] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:34:26,895] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.120 seconds
+[2021-09-01 01:34:56,992] {processor.py:162} INFO - Started process (PID=641) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:34:56,994] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:34:56,995] {logging_mixin.py:109} INFO - [2021-09-01 01:34:56,995] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:34:57,008] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:34:57,036] {logging_mixin.py:109} INFO - [2021-09-01 01:34:57,036] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:34:57,062] {logging_mixin.py:109} INFO - [2021-09-01 01:34:57,061] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:34:57,087] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.100 seconds
+[2021-09-01 01:35:27,218] {processor.py:162} INFO - Started process (PID=661) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:35:27,220] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:35:27,221] {logging_mixin.py:109} INFO - [2021-09-01 01:35:27,221] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:35:27,235] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:35:27,266] {logging_mixin.py:109} INFO - [2021-09-01 01:35:27,266] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:35:27,288] {logging_mixin.py:109} INFO - [2021-09-01 01:35:27,288] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:35:27,325] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.113 seconds
+[2021-09-01 01:35:57,427] {processor.py:162} INFO - Started process (PID=681) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:35:57,429] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:35:57,430] {logging_mixin.py:109} INFO - [2021-09-01 01:35:57,430] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:35:57,442] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:35:57,475] {logging_mixin.py:109} INFO - [2021-09-01 01:35:57,475] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:35:57,499] {logging_mixin.py:109} INFO - [2021-09-01 01:35:57,499] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:35:57,529] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.107 seconds
+[2021-09-01 01:36:27,613] {processor.py:162} INFO - Started process (PID=709) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:36:27,614] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:36:27,615] {logging_mixin.py:109} INFO - [2021-09-01 01:36:27,615] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:36:27,627] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:36:27,681] {logging_mixin.py:109} INFO - [2021-09-01 01:36:27,680] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:36:27,707] {logging_mixin.py:109} INFO - [2021-09-01 01:36:27,706] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:36:27,741] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.132 seconds
+[2021-09-01 01:36:57,822] {processor.py:162} INFO - Started process (PID=730) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:36:57,824] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:36:57,825] {logging_mixin.py:109} INFO - [2021-09-01 01:36:57,825] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:36:57,838] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:36:57,860] {logging_mixin.py:109} INFO - [2021-09-01 01:36:57,860] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:36:57,879] {logging_mixin.py:109} INFO - [2021-09-01 01:36:57,879] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:36:57,899] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.081 seconds
+[2021-09-01 01:37:27,979] {processor.py:162} INFO - Started process (PID=761) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:37:27,980] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:37:27,983] {logging_mixin.py:109} INFO - [2021-09-01 01:37:27,981] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:37:27,999] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:37:28,031] {logging_mixin.py:109} INFO - [2021-09-01 01:37:28,031] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:37:28,055] {logging_mixin.py:109} INFO - [2021-09-01 01:37:28,055] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:37:28,081] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.107 seconds
+[2021-09-01 01:37:58,157] {processor.py:162} INFO - Started process (PID=782) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:37:58,159] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:37:58,161] {logging_mixin.py:109} INFO - [2021-09-01 01:37:58,161] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:37:58,179] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:37:58,204] {logging_mixin.py:109} INFO - [2021-09-01 01:37:58,204] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:37:58,228] {logging_mixin.py:109} INFO - [2021-09-01 01:37:58,228] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:37:58,262] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.109 seconds
+[2021-09-01 01:38:28,422] {processor.py:162} INFO - Started process (PID=799) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:38:28,424] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:38:28,425] {logging_mixin.py:109} INFO - [2021-09-01 01:38:28,425] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:38:28,447] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:38:28,506] {logging_mixin.py:109} INFO - [2021-09-01 01:38:28,506] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:38:28,557] {logging_mixin.py:109} INFO - [2021-09-01 01:38:28,557] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:38:28,591] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.177 seconds
+[2021-09-01 01:38:58,734] {processor.py:162} INFO - Started process (PID=818) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:38:58,736] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:38:58,737] {logging_mixin.py:109} INFO - [2021-09-01 01:38:58,737] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:38:58,752] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:38:58,783] {logging_mixin.py:109} INFO - [2021-09-01 01:38:58,783] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:38:58,804] {logging_mixin.py:109} INFO - [2021-09-01 01:38:58,804] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:38:58,833] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.104 seconds
+[2021-09-01 01:39:28,947] {processor.py:162} INFO - Started process (PID=845) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:39:28,948] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:39:28,949] {logging_mixin.py:109} INFO - [2021-09-01 01:39:28,949] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:39:28,963] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:39:28,990] {logging_mixin.py:109} INFO - [2021-09-01 01:39:28,990] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:39:29,010] {logging_mixin.py:109} INFO - [2021-09-01 01:39:29,010] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:39:29,036] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.092 seconds
+[2021-09-01 01:39:59,153] {processor.py:162} INFO - Started process (PID=866) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:39:59,155] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:39:59,155] {logging_mixin.py:109} INFO - [2021-09-01 01:39:59,155] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:39:59,169] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:39:59,207] {logging_mixin.py:109} INFO - [2021-09-01 01:39:59,206] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:39:59,234] {logging_mixin.py:109} INFO - [2021-09-01 01:39:59,234] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:39:59,264] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.114 seconds
+[2021-09-01 01:40:29,410] {processor.py:162} INFO - Started process (PID=888) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:40:29,412] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:40:29,413] {logging_mixin.py:109} INFO - [2021-09-01 01:40:29,413] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:40:29,424] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:40:29,467] {logging_mixin.py:109} INFO - [2021-09-01 01:40:29,467] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:40:29,489] {logging_mixin.py:109} INFO - [2021-09-01 01:40:29,489] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:40:29,525] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.119 seconds
+[2021-09-01 01:40:59,660] {processor.py:162} INFO - Started process (PID=916) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:40:59,662] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:40:59,663] {logging_mixin.py:109} INFO - [2021-09-01 01:40:59,663] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:40:59,678] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:40:59,706] {logging_mixin.py:109} INFO - [2021-09-01 01:40:59,706] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:40:59,728] {logging_mixin.py:109} INFO - [2021-09-01 01:40:59,728] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:40:59,755] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.099 seconds
+[2021-09-01 01:41:29,866] {processor.py:162} INFO - Started process (PID=937) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:41:29,868] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:41:29,869] {logging_mixin.py:109} INFO - [2021-09-01 01:41:29,869] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:41:29,882] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:41:29,914] {logging_mixin.py:109} INFO - [2021-09-01 01:41:29,914] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:41:29,935] {logging_mixin.py:109} INFO - [2021-09-01 01:41:29,935] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:41:29,960] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.099 seconds
+[2021-09-01 01:42:00,075] {processor.py:162} INFO - Started process (PID=957) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:42:00,076] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:42:00,077] {logging_mixin.py:109} INFO - [2021-09-01 01:42:00,077] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:42:00,094] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:42:00,126] {logging_mixin.py:109} INFO - [2021-09-01 01:42:00,126] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:42:00,150] {logging_mixin.py:109} INFO - [2021-09-01 01:42:00,150] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:42:00,172] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.101 seconds
+[2021-09-01 01:42:30,306] {processor.py:162} INFO - Started process (PID=985) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:42:30,308] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:42:30,309] {logging_mixin.py:109} INFO - [2021-09-01 01:42:30,309] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:42:30,323] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:42:30,353] {logging_mixin.py:109} INFO - [2021-09-01 01:42:30,353] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:42:30,372] {logging_mixin.py:109} INFO - [2021-09-01 01:42:30,371] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:42:30,410] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.111 seconds
+[2021-09-01 01:43:00,515] {processor.py:162} INFO - Started process (PID=1005) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:43:00,516] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:43:00,517] {logging_mixin.py:109} INFO - [2021-09-01 01:43:00,517] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:43:00,530] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:43:00,571] {logging_mixin.py:109} INFO - [2021-09-01 01:43:00,570] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:43:00,599] {logging_mixin.py:109} INFO - [2021-09-01 01:43:00,598] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:43:00,638] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.127 seconds
+[2021-09-01 01:43:30,755] {processor.py:162} INFO - Started process (PID=1027) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:43:30,759] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:43:30,760] {logging_mixin.py:109} INFO - [2021-09-01 01:43:30,760] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:43:30,779] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:43:30,843] {logging_mixin.py:109} INFO - [2021-09-01 01:43:30,843] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:43:30,881] {logging_mixin.py:109} INFO - [2021-09-01 01:43:30,881] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:43:30,913] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.164 seconds
+[2021-09-01 01:44:01,033] {processor.py:162} INFO - Started process (PID=1056) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:44:01,034] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:44:01,036] {logging_mixin.py:109} INFO - [2021-09-01 01:44:01,036] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:44:01,048] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:44:01,072] {logging_mixin.py:109} INFO - [2021-09-01 01:44:01,072] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:44:01,090] {logging_mixin.py:109} INFO - [2021-09-01 01:44:01,090] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:44:01,238] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.209 seconds
+[2021-09-01 01:44:32,192] {processor.py:162} INFO - Started process (PID=1078) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:44:32,194] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:44:32,195] {logging_mixin.py:109} INFO - [2021-09-01 01:44:32,195] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:44:32,215] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:44:32,259] {logging_mixin.py:109} INFO - [2021-09-01 01:44:32,259] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:44:32,294] {logging_mixin.py:109} INFO - [2021-09-01 01:44:32,293] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:44:32,330] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.145 seconds
+[2021-09-01 01:45:03,320] {processor.py:162} INFO - Started process (PID=1105) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:45:03,323] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:45:03,328] {logging_mixin.py:109} INFO - [2021-09-01 01:45:03,327] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:45:03,344] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:45:03,385] {logging_mixin.py:109} INFO - [2021-09-01 01:45:03,385] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:45:03,410] {logging_mixin.py:109} INFO - [2021-09-01 01:45:03,410] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:45:03,442] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.127 seconds
+[2021-09-01 01:45:33,577] {processor.py:162} INFO - Started process (PID=1126) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:45:33,578] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:45:33,579] {logging_mixin.py:109} INFO - [2021-09-01 01:45:33,579] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:45:33,590] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:45:33,629] {logging_mixin.py:109} INFO - [2021-09-01 01:45:33,629] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:45:33,649] {logging_mixin.py:109} INFO - [2021-09-01 01:45:33,649] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:45:33,668] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.098 seconds
+[2021-09-01 01:46:03,808] {processor.py:162} INFO - Started process (PID=1149) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:46:03,810] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:46:03,811] {logging_mixin.py:109} INFO - [2021-09-01 01:46:03,810] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:46:03,827] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:46:03,865] {logging_mixin.py:109} INFO - [2021-09-01 01:46:03,865] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:46:03,885] {logging_mixin.py:109} INFO - [2021-09-01 01:46:03,885] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:46:04,013] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.210 seconds
+[2021-09-01 01:46:34,105] {processor.py:162} INFO - Started process (PID=1177) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:46:34,107] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:46:34,108] {logging_mixin.py:109} INFO - [2021-09-01 01:46:34,108] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:46:34,120] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:46:34,148] {logging_mixin.py:109} INFO - [2021-09-01 01:46:34,148] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:46:34,170] {logging_mixin.py:109} INFO - [2021-09-01 01:46:34,170] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:46:34,185] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.085 seconds
+[2021-09-01 01:47:04,274] {processor.py:162} INFO - Started process (PID=1198) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:47:04,276] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:47:04,277] {logging_mixin.py:109} INFO - [2021-09-01 01:47:04,277] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:47:04,288] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:47:04,314] {logging_mixin.py:109} INFO - [2021-09-01 01:47:04,314] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:47:04,335] {logging_mixin.py:109} INFO - [2021-09-01 01:47:04,335] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:47:04,367] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.096 seconds
+[2021-09-01 01:47:34,484] {processor.py:162} INFO - Started process (PID=1219) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:47:34,485] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:47:34,486] {logging_mixin.py:109} INFO - [2021-09-01 01:47:34,486] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:47:34,498] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:47:34,530] {logging_mixin.py:109} INFO - [2021-09-01 01:47:34,530] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:47:34,549] {logging_mixin.py:109} INFO - [2021-09-01 01:47:34,549] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:47:34,572] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.092 seconds
+[2021-09-01 01:48:04,702] {processor.py:162} INFO - Started process (PID=1246) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:48:04,713] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:48:04,715] {logging_mixin.py:109} INFO - [2021-09-01 01:48:04,715] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:48:04,742] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:48:04,813] {logging_mixin.py:109} INFO - [2021-09-01 01:48:04,812] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:48:04,864] {logging_mixin.py:109} INFO - [2021-09-01 01:48:04,864] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:48:04,911] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.214 seconds
+[2021-09-01 01:48:35,027] {processor.py:162} INFO - Started process (PID=1266) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:48:35,028] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:48:35,029] {logging_mixin.py:109} INFO - [2021-09-01 01:48:35,029] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:48:35,042] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:48:35,070] {logging_mixin.py:109} INFO - [2021-09-01 01:48:35,070] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:48:35,096] {logging_mixin.py:109} INFO - [2021-09-01 01:48:35,095] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:48:35,128] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.107 seconds
+[2021-09-01 01:49:05,427] {processor.py:162} INFO - Started process (PID=1290) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:49:05,428] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:49:05,429] {logging_mixin.py:109} INFO - [2021-09-01 01:49:05,429] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:49:05,479] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:49:05,526] {logging_mixin.py:109} INFO - [2021-09-01 01:49:05,526] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:49:05,549] {logging_mixin.py:109} INFO - [2021-09-01 01:49:05,548] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:49:05,579] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.204 seconds
+[2021-09-01 01:49:35,649] {processor.py:162} INFO - Started process (PID=1311) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:49:35,651] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:49:35,652] {logging_mixin.py:109} INFO - [2021-09-01 01:49:35,651] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:49:35,674] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:49:35,707] {logging_mixin.py:109} INFO - [2021-09-01 01:49:35,707] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:49:35,729] {logging_mixin.py:109} INFO - [2021-09-01 01:49:35,728] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:49:35,766] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.124 seconds
+[2021-09-01 01:50:05,889] {processor.py:162} INFO - Started process (PID=1338) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:50:05,892] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:50:05,894] {logging_mixin.py:109} INFO - [2021-09-01 01:50:05,893] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:50:05,918] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:50:05,960] {logging_mixin.py:109} INFO - [2021-09-01 01:50:05,960] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:50:05,986] {logging_mixin.py:109} INFO - [2021-09-01 01:50:05,985] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:50:06,008] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.125 seconds
+[2021-09-01 01:50:36,093] {processor.py:162} INFO - Started process (PID=1358) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:50:36,096] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:50:36,098] {logging_mixin.py:109} INFO - [2021-09-01 01:50:36,098] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:50:36,117] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:50:36,154] {logging_mixin.py:109} INFO - [2021-09-01 01:50:36,154] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:50:36,177] {logging_mixin.py:109} INFO - [2021-09-01 01:50:36,177] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:50:36,204] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.118 seconds
+[2021-09-01 01:51:06,295] {processor.py:162} INFO - Started process (PID=1379) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:51:06,296] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:51:06,297] {logging_mixin.py:109} INFO - [2021-09-01 01:51:06,297] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:51:06,310] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:51:06,335] {logging_mixin.py:109} INFO - [2021-09-01 01:51:06,335] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:51:06,358] {logging_mixin.py:109} INFO - [2021-09-01 01:51:06,358] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:51:06,536] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.244 seconds
+[2021-09-01 01:51:37,465] {processor.py:162} INFO - Started process (PID=1407) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:51:37,466] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:51:37,467] {logging_mixin.py:109} INFO - [2021-09-01 01:51:37,467] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:51:37,479] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:51:37,508] {logging_mixin.py:109} INFO - [2021-09-01 01:51:37,507] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:51:37,527] {logging_mixin.py:109} INFO - [2021-09-01 01:51:37,527] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:51:37,554] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.095 seconds
+[2021-09-01 01:52:07,649] {processor.py:162} INFO - Started process (PID=1427) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:52:07,650] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:52:07,652] {logging_mixin.py:109} INFO - [2021-09-01 01:52:07,652] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:52:07,663] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:52:07,700] {logging_mixin.py:109} INFO - [2021-09-01 01:52:07,700] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:52:07,722] {logging_mixin.py:109} INFO - [2021-09-01 01:52:07,722] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:52:07,774] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.129 seconds
+[2021-09-01 01:52:37,867] {processor.py:162} INFO - Started process (PID=1447) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:52:37,868] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:52:37,869] {logging_mixin.py:109} INFO - [2021-09-01 01:52:37,869] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:52:37,881] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:52:37,902] {logging_mixin.py:109} INFO - [2021-09-01 01:52:37,902] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:52:37,924] {logging_mixin.py:109} INFO - [2021-09-01 01:52:37,924] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:52:37,954] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.091 seconds
+[2021-09-01 01:53:08,039] {processor.py:162} INFO - Started process (PID=1474) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:53:08,041] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:53:08,041] {logging_mixin.py:109} INFO - [2021-09-01 01:53:08,041] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:53:08,052] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:53:08,080] {logging_mixin.py:109} INFO - [2021-09-01 01:53:08,080] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:53:08,098] {logging_mixin.py:109} INFO - [2021-09-01 01:53:08,098] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:53:08,123] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.088 seconds
+[2021-09-01 01:53:38,203] {processor.py:162} INFO - Started process (PID=1494) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:53:38,205] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:53:38,206] {logging_mixin.py:109} INFO - [2021-09-01 01:53:38,206] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:53:38,289] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:53:38,339] {logging_mixin.py:109} INFO - [2021-09-01 01:53:38,339] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:53:38,358] {logging_mixin.py:109} INFO - [2021-09-01 01:53:38,358] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:53:38,408] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.210 seconds
+[2021-09-01 01:54:08,504] {processor.py:162} INFO - Started process (PID=1514) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:54:08,505] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:54:08,506] {logging_mixin.py:109} INFO - [2021-09-01 01:54:08,505] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:54:08,516] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:54:08,554] {logging_mixin.py:109} INFO - [2021-09-01 01:54:08,553] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:54:08,576] {logging_mixin.py:109} INFO - [2021-09-01 01:54:08,576] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:54:08,612] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.114 seconds
+[2021-09-01 01:54:38,709] {processor.py:162} INFO - Started process (PID=1534) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:54:38,714] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:54:38,718] {logging_mixin.py:109} INFO - [2021-09-01 01:54:38,717] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:54:38,746] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:54:38,782] {logging_mixin.py:109} INFO - [2021-09-01 01:54:38,782] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:54:38,808] {logging_mixin.py:109} INFO - [2021-09-01 01:54:38,808] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:54:38,845] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.149 seconds
+[2021-09-01 01:55:09,081] {processor.py:162} INFO - Started process (PID=1560) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:55:09,082] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:55:09,088] {logging_mixin.py:109} INFO - [2021-09-01 01:55:09,083] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:55:09,153] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:55:09,217] {logging_mixin.py:109} INFO - [2021-09-01 01:55:09,216] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:55:09,269] {logging_mixin.py:109} INFO - [2021-09-01 01:55:09,269] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:55:09,381] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.340 seconds
+[2021-09-01 01:55:39,479] {processor.py:162} INFO - Started process (PID=1582) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:55:39,481] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:55:39,483] {logging_mixin.py:109} INFO - [2021-09-01 01:55:39,483] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:55:39,497] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:55:39,531] {logging_mixin.py:109} INFO - [2021-09-01 01:55:39,531] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:55:39,550] {logging_mixin.py:109} INFO - [2021-09-01 01:55:39,550] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:55:39,589] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.128 seconds
+[2021-09-01 01:56:09,737] {processor.py:162} INFO - Started process (PID=1603) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:56:09,739] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:56:09,740] {logging_mixin.py:109} INFO - [2021-09-01 01:56:09,740] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:56:09,763] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:56:09,941] {logging_mixin.py:109} INFO - [2021-09-01 01:56:09,940] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:56:09,988] {logging_mixin.py:109} INFO - [2021-09-01 01:56:09,988] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:56:10,046] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.337 seconds
+[2021-09-01 01:56:40,169] {processor.py:162} INFO - Started process (PID=1630) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:56:40,170] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:56:40,171] {logging_mixin.py:109} INFO - [2021-09-01 01:56:40,171] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:56:40,189] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:56:40,225] {logging_mixin.py:109} INFO - [2021-09-01 01:56:40,224] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:56:40,249] {logging_mixin.py:109} INFO - [2021-09-01 01:56:40,248] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:56:40,276] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.113 seconds
+[2021-09-01 01:57:10,391] {processor.py:162} INFO - Started process (PID=1650) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:57:10,393] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:57:10,394] {logging_mixin.py:109} INFO - [2021-09-01 01:57:10,394] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:57:10,409] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:57:10,521] {logging_mixin.py:109} INFO - [2021-09-01 01:57:10,521] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:57:10,547] {logging_mixin.py:109} INFO - [2021-09-01 01:57:10,547] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:57:10,581] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.196 seconds
+[2021-09-01 01:57:40,721] {processor.py:162} INFO - Started process (PID=1671) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:57:40,722] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:57:40,723] {logging_mixin.py:109} INFO - [2021-09-01 01:57:40,723] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:57:40,735] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:57:40,758] {logging_mixin.py:109} INFO - [2021-09-01 01:57:40,758] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:57:40,783] {logging_mixin.py:109} INFO - [2021-09-01 01:57:40,783] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:57:40,813] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.109 seconds
+[2021-09-01 01:58:10,919] {processor.py:162} INFO - Started process (PID=1699) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:58:10,921] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:58:10,922] {logging_mixin.py:109} INFO - [2021-09-01 01:58:10,922] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:58:10,935] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:58:10,960] {logging_mixin.py:109} INFO - [2021-09-01 01:58:10,960] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:58:10,980] {logging_mixin.py:109} INFO - [2021-09-01 01:58:10,980] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:58:11,029] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.115 seconds
+[2021-09-01 01:58:41,151] {processor.py:162} INFO - Started process (PID=1721) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:58:41,153] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:58:41,154] {logging_mixin.py:109} INFO - [2021-09-01 01:58:41,153] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:58:41,165] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:58:41,183] {logging_mixin.py:109} INFO - [2021-09-01 01:58:41,183] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:58:41,199] {logging_mixin.py:109} INFO - [2021-09-01 01:58:41,199] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:58:41,218] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.071 seconds
+[2021-09-01 01:59:11,333] {processor.py:162} INFO - Started process (PID=1743) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:59:11,334] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:59:11,335] {logging_mixin.py:109} INFO - [2021-09-01 01:59:11,335] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:59:11,351] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:59:11,384] {logging_mixin.py:109} INFO - [2021-09-01 01:59:11,384] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:59:11,409] {logging_mixin.py:109} INFO - [2021-09-01 01:59:11,409] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:59:11,433] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.115 seconds
+[2021-09-01 01:59:41,541] {processor.py:162} INFO - Started process (PID=1763) to work on /opt/airflow/dags/test.py
+[2021-09-01 01:59:41,543] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 01:59:41,544] {logging_mixin.py:109} INFO - [2021-09-01 01:59:41,544] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 01:59:41,557] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 01:59:41,590] {logging_mixin.py:109} INFO - [2021-09-01 01:59:41,590] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 01:59:41,610] {logging_mixin.py:109} INFO - [2021-09-01 01:59:41,610] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 01:59:41,666] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.131 seconds
+[2021-09-01 02:00:12,676] {processor.py:162} INFO - Started process (PID=1791) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:00:12,677] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:00:12,678] {logging_mixin.py:109} INFO - [2021-09-01 02:00:12,678] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:00:12,693] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:00:12,725] {logging_mixin.py:109} INFO - [2021-09-01 02:00:12,724] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:00:12,775] {logging_mixin.py:109} INFO - [2021-09-01 02:00:12,775] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:00:12,826] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.155 seconds
+[2021-09-01 02:00:42,939] {processor.py:162} INFO - Started process (PID=1821) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:00:42,941] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:00:42,942] {logging_mixin.py:109} INFO - [2021-09-01 02:00:42,942] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:00:42,960] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:00:42,993] {logging_mixin.py:109} INFO - [2021-09-01 02:00:42,993] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:00:43,018] {logging_mixin.py:109} INFO - [2021-09-01 02:00:43,018] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:00:43,050] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.117 seconds
+[2021-09-01 02:01:13,175] {processor.py:162} INFO - Started process (PID=1848) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:01:13,177] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:01:13,178] {logging_mixin.py:109} INFO - [2021-09-01 02:01:13,178] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:01:13,194] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:01:13,226] {logging_mixin.py:109} INFO - [2021-09-01 02:01:13,226] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:01:13,250] {logging_mixin.py:109} INFO - [2021-09-01 02:01:13,250] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:01:13,276] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.106 seconds
+[2021-09-01 02:01:43,397] {processor.py:162} INFO - Started process (PID=1868) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:01:43,398] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:01:43,399] {logging_mixin.py:109} INFO - [2021-09-01 02:01:43,399] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:01:43,410] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:01:43,449] {logging_mixin.py:109} INFO - [2021-09-01 02:01:43,448] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:01:43,469] {logging_mixin.py:109} INFO - [2021-09-01 02:01:43,469] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:01:43,506] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.113 seconds
+[2021-09-01 02:02:13,616] {processor.py:162} INFO - Started process (PID=1889) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:02:13,617] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:02:13,618] {logging_mixin.py:109} INFO - [2021-09-01 02:02:13,618] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:02:13,629] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:02:13,662] {logging_mixin.py:109} INFO - [2021-09-01 02:02:13,662] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:02:13,683] {logging_mixin.py:109} INFO - [2021-09-01 02:02:13,683] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:02:13,730] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.117 seconds
+[2021-09-01 02:02:43,838] {processor.py:162} INFO - Started process (PID=1918) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:02:43,839] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:02:43,840] {logging_mixin.py:109} INFO - [2021-09-01 02:02:43,840] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:02:43,851] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:02:43,883] {logging_mixin.py:109} INFO - [2021-09-01 02:02:43,883] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:02:43,905] {logging_mixin.py:109} INFO - [2021-09-01 02:02:43,905] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:02:43,928] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.097 seconds
+[2021-09-01 02:03:14,036] {processor.py:162} INFO - Started process (PID=1938) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:03:14,038] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:03:14,039] {logging_mixin.py:109} INFO - [2021-09-01 02:03:14,039] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:03:14,058] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:03:14,086] {logging_mixin.py:109} INFO - [2021-09-01 02:03:14,085] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:03:14,108] {logging_mixin.py:109} INFO - [2021-09-01 02:03:14,108] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:03:14,140] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.110 seconds
+[2021-09-01 02:03:44,253] {processor.py:162} INFO - Started process (PID=1958) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:03:44,255] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:03:44,255] {logging_mixin.py:109} INFO - [2021-09-01 02:03:44,255] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:03:44,268] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:03:44,293] {logging_mixin.py:109} INFO - [2021-09-01 02:03:44,293] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:03:44,312] {logging_mixin.py:109} INFO - [2021-09-01 02:03:44,312] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:03:44,343] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.094 seconds
+[2021-09-01 02:04:14,469] {processor.py:162} INFO - Started process (PID=1995) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:04:14,472] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:04:14,474] {logging_mixin.py:109} INFO - [2021-09-01 02:04:14,474] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:04:14,491] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:04:14,541] {logging_mixin.py:109} INFO - [2021-09-01 02:04:14,541] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:04:14,595] {logging_mixin.py:109} INFO - [2021-09-01 02:04:14,595] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:04:14,627] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.163 seconds
+[2021-09-01 02:04:44,742] {processor.py:162} INFO - Started process (PID=2016) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:04:44,744] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:04:44,745] {logging_mixin.py:109} INFO - [2021-09-01 02:04:44,744] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:04:44,762] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:04:44,787] {logging_mixin.py:109} INFO - [2021-09-01 02:04:44,787] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:04:44,803] {logging_mixin.py:109} INFO - [2021-09-01 02:04:44,803] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:04:44,848] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.111 seconds
+[2021-09-01 02:05:14,945] {processor.py:162} INFO - Started process (PID=2038) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:05:14,946] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:05:14,947] {logging_mixin.py:109} INFO - [2021-09-01 02:05:14,947] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:05:14,960] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:05:14,994] {logging_mixin.py:109} INFO - [2021-09-01 02:05:14,994] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:05:15,016] {logging_mixin.py:109} INFO - [2021-09-01 02:05:15,016] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:05:15,044] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.103 seconds
+[2021-09-01 02:05:45,128] {processor.py:162} INFO - Started process (PID=2067) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:05:45,129] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:05:45,130] {logging_mixin.py:109} INFO - [2021-09-01 02:05:45,130] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:05:45,144] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:05:45,171] {logging_mixin.py:109} INFO - [2021-09-01 02:05:45,171] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:05:45,194] {logging_mixin.py:109} INFO - [2021-09-01 02:05:45,193] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:05:45,221] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.097 seconds
+[2021-09-01 02:06:15,305] {processor.py:162} INFO - Started process (PID=2088) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:06:15,307] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:06:15,308] {logging_mixin.py:109} INFO - [2021-09-01 02:06:15,307] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:06:15,324] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:06:15,351] {logging_mixin.py:109} INFO - [2021-09-01 02:06:15,351] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:06:15,370] {logging_mixin.py:109} INFO - [2021-09-01 02:06:15,370] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:06:15,427] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.127 seconds
+[2021-09-01 02:06:45,527] {processor.py:162} INFO - Started process (PID=2108) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:06:45,529] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:06:45,530] {logging_mixin.py:109} INFO - [2021-09-01 02:06:45,530] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:06:45,548] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:06:45,585] {logging_mixin.py:109} INFO - [2021-09-01 02:06:45,584] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:06:45,607] {logging_mixin.py:109} INFO - [2021-09-01 02:06:45,607] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:06:45,636] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.115 seconds
+[2021-09-01 02:07:15,734] {processor.py:162} INFO - Started process (PID=2143) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:07:15,735] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:07:15,736] {logging_mixin.py:109} INFO - [2021-09-01 02:07:15,736] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:07:15,754] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:07:15,784] {logging_mixin.py:109} INFO - [2021-09-01 02:07:15,784] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:07:15,807] {logging_mixin.py:109} INFO - [2021-09-01 02:07:15,807] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:07:15,839] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.111 seconds
+[2021-09-01 02:07:45,950] {processor.py:162} INFO - Started process (PID=2164) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:07:45,951] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:07:45,952] {logging_mixin.py:109} INFO - [2021-09-01 02:07:45,952] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:07:45,963] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:07:45,995] {logging_mixin.py:109} INFO - [2021-09-01 02:07:45,995] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:07:46,016] {logging_mixin.py:109} INFO - [2021-09-01 02:07:46,016] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:07:46,046] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.103 seconds
+[2021-09-01 02:08:16,141] {processor.py:162} INFO - Started process (PID=2184) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:08:16,142] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:08:16,143] {logging_mixin.py:109} INFO - [2021-09-01 02:08:16,143] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:08:16,155] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:08:16,180] {logging_mixin.py:109} INFO - [2021-09-01 02:08:16,179] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:08:16,197] {logging_mixin.py:109} INFO - [2021-09-01 02:08:16,197] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:08:16,221] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.085 seconds
+[2021-09-01 02:08:46,318] {processor.py:162} INFO - Started process (PID=2212) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:08:46,320] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:08:46,321] {logging_mixin.py:109} INFO - [2021-09-01 02:08:46,321] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:08:46,333] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:08:46,370] {logging_mixin.py:109} INFO - [2021-09-01 02:08:46,370] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:08:46,391] {logging_mixin.py:109} INFO - [2021-09-01 02:08:46,391] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:08:46,427] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.114 seconds
+[2021-09-01 02:09:16,521] {processor.py:162} INFO - Started process (PID=2233) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:09:16,522] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:09:16,523] {logging_mixin.py:109} INFO - [2021-09-01 02:09:16,523] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:09:16,535] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:09:16,559] {logging_mixin.py:109} INFO - [2021-09-01 02:09:16,559] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:09:16,576] {logging_mixin.py:109} INFO - [2021-09-01 02:09:16,576] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:09:16,604] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.086 seconds
+[2021-09-01 02:09:46,689] {processor.py:162} INFO - Started process (PID=2262) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:09:46,691] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:09:46,692] {logging_mixin.py:109} INFO - [2021-09-01 02:09:46,691] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:09:46,719] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:09:46,761] {logging_mixin.py:109} INFO - [2021-09-01 02:09:46,761] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:09:46,784] {logging_mixin.py:109} INFO - [2021-09-01 02:09:46,783] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:09:46,818] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.134 seconds
+[2021-09-01 02:10:16,856] {processor.py:162} INFO - Started process (PID=2279) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:10:16,857] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:10:16,858] {logging_mixin.py:109} INFO - [2021-09-01 02:10:16,858] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:10:16,870] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:10:16,898] {logging_mixin.py:109} INFO - [2021-09-01 02:10:16,898] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:10:16,922] {logging_mixin.py:109} INFO - [2021-09-01 02:10:16,921] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:10:16,954] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.103 seconds
+[2021-09-01 02:10:47,115] {processor.py:162} INFO - Started process (PID=2300) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:10:47,116] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:10:47,117] {logging_mixin.py:109} INFO - [2021-09-01 02:10:47,117] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:10:47,128] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:10:47,166] {logging_mixin.py:109} INFO - [2021-09-01 02:10:47,166] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:10:47,186] {logging_mixin.py:109} INFO - [2021-09-01 02:10:47,186] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:10:47,215] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.105 seconds
+[2021-09-01 02:11:17,345] {processor.py:162} INFO - Started process (PID=2328) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:11:17,346] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:11:17,347] {logging_mixin.py:109} INFO - [2021-09-01 02:11:17,347] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:11:17,359] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:11:17,383] {logging_mixin.py:109} INFO - [2021-09-01 02:11:17,383] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:11:17,400] {logging_mixin.py:109} INFO - [2021-09-01 02:11:17,400] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:11:17,413] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.072 seconds
+[2021-09-01 02:11:47,517] {processor.py:162} INFO - Started process (PID=2348) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:11:47,519] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:11:47,519] {logging_mixin.py:109} INFO - [2021-09-01 02:11:47,519] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:11:47,531] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:11:47,558] {logging_mixin.py:109} INFO - [2021-09-01 02:11:47,558] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:11:47,585] {logging_mixin.py:109} INFO - [2021-09-01 02:11:47,585] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:11:47,618] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.104 seconds
+[2021-09-01 02:12:17,722] {processor.py:162} INFO - Started process (PID=2376) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:12:17,723] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:12:17,724] {logging_mixin.py:109} INFO - [2021-09-01 02:12:17,724] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:12:17,735] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:12:17,756] {logging_mixin.py:109} INFO - [2021-09-01 02:12:17,756] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:12:17,772] {logging_mixin.py:109} INFO - [2021-09-01 02:12:17,772] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:12:17,797] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.079 seconds
+[2021-09-01 02:12:47,927] {processor.py:162} INFO - Started process (PID=2396) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:12:47,929] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:12:47,930] {logging_mixin.py:109} INFO - [2021-09-01 02:12:47,930] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:12:47,941] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:12:47,993] {logging_mixin.py:109} INFO - [2021-09-01 02:12:47,993] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:12:48,015] {logging_mixin.py:109} INFO - [2021-09-01 02:12:48,015] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:12:48,043] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.126 seconds
+[2021-09-01 02:13:18,167] {processor.py:162} INFO - Started process (PID=2418) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:13:18,168] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:13:18,169] {logging_mixin.py:109} INFO - [2021-09-01 02:13:18,169] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:13:18,181] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:13:18,212] {logging_mixin.py:109} INFO - [2021-09-01 02:13:18,212] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:13:18,310] {logging_mixin.py:109} INFO - [2021-09-01 02:13:18,310] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:13:18,339] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.177 seconds
+[2021-09-01 02:13:48,458] {processor.py:162} INFO - Started process (PID=2446) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:13:48,459] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:13:48,460] {logging_mixin.py:109} INFO - [2021-09-01 02:13:48,460] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:13:48,471] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:13:48,499] {logging_mixin.py:109} INFO - [2021-09-01 02:13:48,498] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:13:48,619] {logging_mixin.py:109} INFO - [2021-09-01 02:13:48,619] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:13:48,648] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.193 seconds
+[2021-09-01 02:14:18,775] {processor.py:162} INFO - Started process (PID=2467) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:14:18,776] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:14:18,777] {logging_mixin.py:109} INFO - [2021-09-01 02:14:18,777] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:14:18,788] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:14:18,826] {logging_mixin.py:109} INFO - [2021-09-01 02:14:18,825] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:14:18,925] {logging_mixin.py:109} INFO - [2021-09-01 02:14:18,925] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:14:18,953] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.183 seconds
+[2021-09-01 02:14:49,078] {processor.py:162} INFO - Started process (PID=2496) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:14:49,079] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:14:49,080] {logging_mixin.py:109} INFO - [2021-09-01 02:14:49,080] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:14:49,096] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:14:49,119] {logging_mixin.py:109} INFO - [2021-09-01 02:14:49,118] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:14:49,210] {logging_mixin.py:109} INFO - [2021-09-01 02:14:49,210] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:14:49,230] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.157 seconds
+[2021-09-01 02:15:19,363] {processor.py:162} INFO - Started process (PID=2517) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:15:19,364] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:15:19,365] {logging_mixin.py:109} INFO - [2021-09-01 02:15:19,365] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:15:19,376] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:15:19,410] {logging_mixin.py:109} INFO - [2021-09-01 02:15:19,410] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:15:19,508] {logging_mixin.py:109} INFO - [2021-09-01 02:15:19,508] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:15:19,536] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.178 seconds
+[2021-09-01 02:15:49,669] {processor.py:162} INFO - Started process (PID=2537) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:15:49,671] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:15:49,672] {logging_mixin.py:109} INFO - [2021-09-01 02:15:49,672] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:15:49,682] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:15:49,704] {logging_mixin.py:109} INFO - [2021-09-01 02:15:49,704] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:15:49,795] {logging_mixin.py:109} INFO - [2021-09-01 02:15:49,795] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:15:49,823] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.158 seconds
+[2021-09-01 02:16:19,949] {processor.py:162} INFO - Started process (PID=2566) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:16:19,951] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:16:19,951] {logging_mixin.py:109} INFO - [2021-09-01 02:16:19,951] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:16:19,962] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:16:19,995] {logging_mixin.py:109} INFO - [2021-09-01 02:16:19,995] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:16:20,093] {logging_mixin.py:109} INFO - [2021-09-01 02:16:20,092] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:16:20,116] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.174 seconds
+[2021-09-01 02:16:50,237] {processor.py:162} INFO - Started process (PID=2586) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:16:50,238] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:16:50,239] {logging_mixin.py:109} INFO - [2021-09-01 02:16:50,239] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:16:50,250] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:16:50,359] {logging_mixin.py:109} INFO - [2021-09-01 02:16:50,358] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:16:50,377] {logging_mixin.py:109} INFO - [2021-09-01 02:16:50,377] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:16:50,408] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.176 seconds
+[2021-09-01 02:17:20,508] {processor.py:162} INFO - Started process (PID=2614) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:17:20,510] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:17:20,511] {logging_mixin.py:109} INFO - [2021-09-01 02:17:20,511] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:17:20,529] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:17:20,648] {logging_mixin.py:109} INFO - [2021-09-01 02:17:20,648] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:17:20,663] {logging_mixin.py:109} INFO - [2021-09-01 02:17:20,663] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:17:20,685] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.182 seconds
+[2021-09-01 02:17:50,795] {processor.py:162} INFO - Started process (PID=2635) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:17:50,797] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:17:50,798] {logging_mixin.py:109} INFO - [2021-09-01 02:17:50,798] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:17:50,810] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:17:50,906] {logging_mixin.py:109} INFO - [2021-09-01 02:17:50,906] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:17:50,919] {logging_mixin.py:109} INFO - [2021-09-01 02:17:50,919] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:17:50,943] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.151 seconds
+[2021-09-01 02:18:20,984] {processor.py:162} INFO - Started process (PID=2656) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:18:20,985] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:18:20,986] {logging_mixin.py:109} INFO - [2021-09-01 02:18:20,986] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:18:20,997] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:18:21,118] {logging_mixin.py:109} INFO - [2021-09-01 02:18:21,118] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:18:21,138] {logging_mixin.py:109} INFO - [2021-09-01 02:18:21,138] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:18:21,157] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.177 seconds
+[2021-09-01 02:18:51,273] {processor.py:162} INFO - Started process (PID=2686) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:18:51,275] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:18:51,276] {logging_mixin.py:109} INFO - [2021-09-01 02:18:51,276] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:18:51,287] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:18:51,398] {logging_mixin.py:109} INFO - [2021-09-01 02:18:51,397] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:18:51,416] {logging_mixin.py:109} INFO - [2021-09-01 02:18:51,416] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:18:51,439] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.172 seconds
+[2021-09-01 02:19:21,564] {processor.py:162} INFO - Started process (PID=2708) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:19:21,565] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:19:21,566] {logging_mixin.py:109} INFO - [2021-09-01 02:19:21,566] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:19:21,659] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:19:21,691] {logging_mixin.py:109} INFO - [2021-09-01 02:19:21,691] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:19:21,710] {logging_mixin.py:109} INFO - [2021-09-01 02:19:21,710] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:19:21,743] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.182 seconds
+[2021-09-01 02:19:51,868] {processor.py:162} INFO - Started process (PID=2739) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:19:51,870] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:19:51,871] {logging_mixin.py:109} INFO - [2021-09-01 02:19:51,871] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:19:51,958] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:19:51,977] {logging_mixin.py:109} INFO - [2021-09-01 02:19:51,977] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:19:51,991] {logging_mixin.py:109} INFO - [2021-09-01 02:19:51,990] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:19:52,009] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.145 seconds
+[2021-09-01 02:20:22,106] {processor.py:162} INFO - Started process (PID=2760) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:20:22,107] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:20:22,108] {logging_mixin.py:109} INFO - [2021-09-01 02:20:22,108] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:20:22,196] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:20:22,216] {logging_mixin.py:109} INFO - [2021-09-01 02:20:22,216] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:20:22,235] {logging_mixin.py:109} INFO - [2021-09-01 02:20:22,235] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:20:22,268] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.165 seconds
+[2021-09-01 02:20:52,383] {processor.py:162} INFO - Started process (PID=2781) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:20:52,384] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:20:52,385] {logging_mixin.py:109} INFO - [2021-09-01 02:20:52,385] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:20:52,476] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:20:52,508] {logging_mixin.py:109} INFO - [2021-09-01 02:20:52,508] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:20:52,528] {logging_mixin.py:109} INFO - [2021-09-01 02:20:52,528] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:20:52,551] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.172 seconds
+[2021-09-01 02:21:22,663] {processor.py:162} INFO - Started process (PID=2810) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:21:22,664] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:21:22,665] {logging_mixin.py:109} INFO - [2021-09-01 02:21:22,665] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:21:22,751] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:21:22,783] {logging_mixin.py:109} INFO - [2021-09-01 02:21:22,783] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:21:22,804] {logging_mixin.py:109} INFO - [2021-09-01 02:21:22,804] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:21:22,831] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.173 seconds
+[2021-09-01 02:21:52,930] {processor.py:162} INFO - Started process (PID=2830) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:21:52,932] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:21:52,933] {logging_mixin.py:109} INFO - [2021-09-01 02:21:52,933] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:21:52,944] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:21:52,976] {logging_mixin.py:109} INFO - [2021-09-01 02:21:52,976] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:21:52,994] {logging_mixin.py:109} INFO - [2021-09-01 02:21:52,994] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:21:53,023] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.100 seconds
+[2021-09-01 02:22:23,120] {processor.py:162} INFO - Started process (PID=2857) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:22:23,121] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:22:23,122] {logging_mixin.py:109} INFO - [2021-09-01 02:22:23,122] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:22:23,137] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:22:23,165] {logging_mixin.py:109} INFO - [2021-09-01 02:22:23,165] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:22:23,188] {logging_mixin.py:109} INFO - [2021-09-01 02:22:23,188] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:22:23,211] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.096 seconds
+[2021-09-01 02:22:53,304] {processor.py:162} INFO - Started process (PID=2879) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:22:53,306] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:22:53,307] {logging_mixin.py:109} INFO - [2021-09-01 02:22:53,307] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:22:53,320] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:22:53,345] {logging_mixin.py:109} INFO - [2021-09-01 02:22:53,345] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:22:53,361] {logging_mixin.py:109} INFO - [2021-09-01 02:22:53,361] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:22:53,379] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.078 seconds
+[2021-09-01 02:23:23,487] {processor.py:162} INFO - Started process (PID=2899) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:23:23,488] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:23:23,489] {logging_mixin.py:109} INFO - [2021-09-01 02:23:23,489] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:23:23,500] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:23:23,535] {logging_mixin.py:109} INFO - [2021-09-01 02:23:23,535] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:23:23,558] {logging_mixin.py:109} INFO - [2021-09-01 02:23:23,558] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:23:23,587] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.105 seconds
+[2021-09-01 02:23:53,673] {processor.py:162} INFO - Started process (PID=2927) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:23:53,674] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:23:53,675] {logging_mixin.py:109} INFO - [2021-09-01 02:23:53,675] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:23:53,687] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:23:53,707] {logging_mixin.py:109} INFO - [2021-09-01 02:23:53,707] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:23:53,722] {logging_mixin.py:109} INFO - [2021-09-01 02:23:53,722] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:23:53,753] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.084 seconds
+[2021-09-01 02:24:23,839] {processor.py:162} INFO - Started process (PID=2947) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:24:23,840] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:24:23,841] {logging_mixin.py:109} INFO - [2021-09-01 02:24:23,841] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:24:23,852] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:24:23,876] {logging_mixin.py:109} INFO - [2021-09-01 02:24:23,876] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:24:23,893] {logging_mixin.py:109} INFO - [2021-09-01 02:24:23,893] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:24:23,920] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.084 seconds
+[2021-09-01 02:24:54,006] {processor.py:162} INFO - Started process (PID=2973) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:24:54,007] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:24:54,009] {logging_mixin.py:109} INFO - [2021-09-01 02:24:54,008] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:24:54,023] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:24:54,051] {logging_mixin.py:109} INFO - [2021-09-01 02:24:54,051] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:24:54,072] {logging_mixin.py:109} INFO - [2021-09-01 02:24:54,072] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:24:54,124] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.122 seconds
+[2021-09-01 02:25:24,227] {processor.py:162} INFO - Started process (PID=2998) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:25:24,228] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:25:24,229] {logging_mixin.py:109} INFO - [2021-09-01 02:25:24,229] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:25:24,240] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:25:24,275] {logging_mixin.py:109} INFO - [2021-09-01 02:25:24,275] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:25:24,296] {logging_mixin.py:109} INFO - [2021-09-01 02:25:24,296] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:25:24,331] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.108 seconds
+[2021-09-01 02:25:54,365] {processor.py:162} INFO - Started process (PID=3016) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:25:54,368] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:25:54,369] {logging_mixin.py:109} INFO - [2021-09-01 02:25:54,369] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:25:54,383] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:25:54,416] {logging_mixin.py:109} INFO - [2021-09-01 02:25:54,415] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:25:54,450] {logging_mixin.py:109} INFO - [2021-09-01 02:25:54,450] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:25:54,483] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.123 seconds
+[2021-09-01 02:26:24,625] {processor.py:162} INFO - Started process (PID=3042) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:26:24,627] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:26:24,628] {logging_mixin.py:109} INFO - [2021-09-01 02:26:24,628] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:26:24,639] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:26:24,661] {logging_mixin.py:109} INFO - [2021-09-01 02:26:24,660] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:26:24,676] {logging_mixin.py:109} INFO - [2021-09-01 02:26:24,676] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:26:24,797] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.175 seconds
+[2021-09-01 02:26:54,912] {processor.py:162} INFO - Started process (PID=3062) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:26:54,914] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:26:54,916] {logging_mixin.py:109} INFO - [2021-09-01 02:26:54,916] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:26:54,932] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:26:54,961] {logging_mixin.py:109} INFO - [2021-09-01 02:26:54,961] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:26:54,983] {logging_mixin.py:109} INFO - [2021-09-01 02:26:54,983] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:26:55,010] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.103 seconds
+[2021-09-01 02:27:25,126] {processor.py:162} INFO - Started process (PID=3082) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:27:25,127] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:27:25,128] {logging_mixin.py:109} INFO - [2021-09-01 02:27:25,128] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:27:25,139] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:27:25,162] {logging_mixin.py:109} INFO - [2021-09-01 02:27:25,162] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:27:25,179] {logging_mixin.py:109} INFO - [2021-09-01 02:27:25,179] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:27:25,201] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.079 seconds
+[2021-09-01 02:27:55,308] {processor.py:162} INFO - Started process (PID=3110) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:27:55,309] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:27:55,310] {logging_mixin.py:109} INFO - [2021-09-01 02:27:55,310] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:27:55,321] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:27:55,344] {logging_mixin.py:109} INFO - [2021-09-01 02:27:55,344] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:27:55,361] {logging_mixin.py:109} INFO - [2021-09-01 02:27:55,361] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:27:55,381] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.077 seconds
+[2021-09-01 02:28:25,511] {processor.py:162} INFO - Started process (PID=3130) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:28:25,513] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:28:25,514] {logging_mixin.py:109} INFO - [2021-09-01 02:28:25,514] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:28:25,524] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:28:25,560] {logging_mixin.py:109} INFO - [2021-09-01 02:28:25,560] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:28:25,578] {logging_mixin.py:109} INFO - [2021-09-01 02:28:25,578] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:28:25,611] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.105 seconds
+[2021-09-01 02:28:55,747] {processor.py:162} INFO - Started process (PID=3160) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:28:55,749] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:28:55,750] {logging_mixin.py:109} INFO - [2021-09-01 02:28:55,750] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:28:55,766] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:28:55,796] {logging_mixin.py:109} INFO - [2021-09-01 02:28:55,795] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:28:55,819] {logging_mixin.py:109} INFO - [2021-09-01 02:28:55,819] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:28:55,842] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.100 seconds
+[2021-09-01 02:29:25,976] {processor.py:162} INFO - Started process (PID=3181) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:29:25,977] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:29:25,978] {logging_mixin.py:109} INFO - [2021-09-01 02:29:25,978] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:29:25,989] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:29:26,025] {logging_mixin.py:109} INFO - [2021-09-01 02:29:26,025] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:29:26,047] {logging_mixin.py:109} INFO - [2021-09-01 02:29:26,046] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:29:26,084] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.112 seconds
+[2021-09-01 02:29:56,194] {processor.py:162} INFO - Started process (PID=3201) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:29:56,196] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:29:56,197] {logging_mixin.py:109} INFO - [2021-09-01 02:29:56,197] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:29:56,214] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:29:56,250] {logging_mixin.py:109} INFO - [2021-09-01 02:29:56,250] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:29:56,270] {logging_mixin.py:109} INFO - [2021-09-01 02:29:56,270] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:29:56,302] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.114 seconds
+[2021-09-01 02:30:26,446] {processor.py:162} INFO - Started process (PID=3229) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:30:26,448] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:30:26,449] {logging_mixin.py:109} INFO - [2021-09-01 02:30:26,448] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:30:26,460] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:30:26,487] {logging_mixin.py:109} INFO - [2021-09-01 02:30:26,487] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:30:26,507] {logging_mixin.py:109} INFO - [2021-09-01 02:30:26,507] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:30:26,544] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.104 seconds
+[2021-09-01 02:30:56,657] {processor.py:162} INFO - Started process (PID=3250) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:30:56,658] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:30:56,659] {logging_mixin.py:109} INFO - [2021-09-01 02:30:56,659] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:30:56,671] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:30:56,694] {logging_mixin.py:109} INFO - [2021-09-01 02:30:56,693] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:30:56,710] {logging_mixin.py:109} INFO - [2021-09-01 02:30:56,710] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:30:56,728] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.075 seconds
+[2021-09-01 02:31:26,847] {processor.py:162} INFO - Started process (PID=3277) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:31:26,849] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:31:26,850] {logging_mixin.py:109} INFO - [2021-09-01 02:31:26,850] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:31:26,861] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:31:26,882] {logging_mixin.py:109} INFO - [2021-09-01 02:31:26,882] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:31:26,897] {logging_mixin.py:109} INFO - [2021-09-01 02:31:26,897] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:31:26,920] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.076 seconds
+[2021-09-01 02:31:57,029] {processor.py:162} INFO - Started process (PID=3298) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:31:57,031] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:31:57,031] {logging_mixin.py:109} INFO - [2021-09-01 02:31:57,031] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:31:57,042] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:31:57,075] {logging_mixin.py:109} INFO - [2021-09-01 02:31:57,074] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:31:57,095] {logging_mixin.py:109} INFO - [2021-09-01 02:31:57,095] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:31:57,131] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.106 seconds
+[2021-09-01 02:32:27,251] {processor.py:162} INFO - Started process (PID=3320) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:32:27,252] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:32:27,253] {logging_mixin.py:109} INFO - [2021-09-01 02:32:27,253] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:32:27,264] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:32:27,294] {logging_mixin.py:109} INFO - [2021-09-01 02:32:27,294] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:32:27,312] {logging_mixin.py:109} INFO - [2021-09-01 02:32:27,312] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:32:27,338] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.092 seconds
+[2021-09-01 02:32:57,466] {processor.py:162} INFO - Started process (PID=3349) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:32:57,468] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:32:57,469] {logging_mixin.py:109} INFO - [2021-09-01 02:32:57,469] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:32:57,481] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:32:57,508] {logging_mixin.py:109} INFO - [2021-09-01 02:32:57,508] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:32:57,527] {logging_mixin.py:109} INFO - [2021-09-01 02:32:57,527] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:32:57,564] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.102 seconds
+[2021-09-01 02:33:27,673] {processor.py:162} INFO - Started process (PID=3369) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:33:27,675] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:33:27,675] {logging_mixin.py:109} INFO - [2021-09-01 02:33:27,675] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:33:27,688] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:33:27,714] {logging_mixin.py:109} INFO - [2021-09-01 02:33:27,714] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:33:27,733] {logging_mixin.py:109} INFO - [2021-09-01 02:33:27,732] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:33:27,752] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.083 seconds
+[2021-09-01 02:33:57,846] {processor.py:162} INFO - Started process (PID=3396) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:33:57,848] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:33:57,849] {logging_mixin.py:109} INFO - [2021-09-01 02:33:57,849] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:33:57,866] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:33:57,898] {logging_mixin.py:109} INFO - [2021-09-01 02:33:57,898] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:33:57,921] {logging_mixin.py:109} INFO - [2021-09-01 02:33:57,921] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:33:57,955] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.113 seconds
+[2021-09-01 02:34:28,063] {processor.py:162} INFO - Started process (PID=3419) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:34:28,065] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:34:28,066] {logging_mixin.py:109} INFO - [2021-09-01 02:34:28,066] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:34:28,076] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:34:28,110] {logging_mixin.py:109} INFO - [2021-09-01 02:34:28,110] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:34:28,130] {logging_mixin.py:109} INFO - [2021-09-01 02:34:28,130] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:34:28,158] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.100 seconds
+[2021-09-01 02:34:58,278] {processor.py:162} INFO - Started process (PID=3441) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:34:58,279] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:34:58,280] {logging_mixin.py:109} INFO - [2021-09-01 02:34:58,280] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:34:58,291] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:34:58,330] {logging_mixin.py:109} INFO - [2021-09-01 02:34:58,329] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:34:58,360] {logging_mixin.py:109} INFO - [2021-09-01 02:34:58,359] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:34:58,383] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.109 seconds
+[2021-09-01 02:35:28,522] {processor.py:162} INFO - Started process (PID=3468) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:35:28,524] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:35:28,525] {logging_mixin.py:109} INFO - [2021-09-01 02:35:28,525] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:35:28,541] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:35:28,570] {logging_mixin.py:109} INFO - [2021-09-01 02:35:28,569] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:35:28,592] {logging_mixin.py:109} INFO - [2021-09-01 02:35:28,592] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:35:28,664] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.150 seconds
+[2021-09-01 02:35:58,795] {processor.py:162} INFO - Started process (PID=3490) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:35:58,796] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:35:58,797] {logging_mixin.py:109} INFO - [2021-09-01 02:35:58,797] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:35:58,808] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:35:58,838] {logging_mixin.py:109} INFO - [2021-09-01 02:35:58,838] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:35:58,857] {logging_mixin.py:109} INFO - [2021-09-01 02:35:58,857] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:35:58,890] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.101 seconds
+[2021-09-01 02:36:28,997] {processor.py:162} INFO - Started process (PID=3510) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:36:28,999] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:36:29,000] {logging_mixin.py:109} INFO - [2021-09-01 02:36:29,000] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:36:29,012] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:36:29,036] {logging_mixin.py:109} INFO - [2021-09-01 02:36:29,036] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:36:29,052] {logging_mixin.py:109} INFO - [2021-09-01 02:36:29,052] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:36:29,088] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.095 seconds
+[2021-09-01 02:36:59,190] {processor.py:162} INFO - Started process (PID=3537) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:36:59,191] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:36:59,191] {logging_mixin.py:109} INFO - [2021-09-01 02:36:59,191] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:36:59,204] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:36:59,235] {logging_mixin.py:109} INFO - [2021-09-01 02:36:59,235] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:36:59,255] {logging_mixin.py:109} INFO - [2021-09-01 02:36:59,254] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:36:59,304] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.119 seconds
+[2021-09-01 02:37:29,392] {processor.py:162} INFO - Started process (PID=3557) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:37:29,394] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:37:29,395] {logging_mixin.py:109} INFO - [2021-09-01 02:37:29,395] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:37:29,405] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:37:29,428] {logging_mixin.py:109} INFO - [2021-09-01 02:37:29,428] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:37:29,444] {logging_mixin.py:109} INFO - [2021-09-01 02:37:29,444] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:37:29,470] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.082 seconds
+[2021-09-01 02:37:59,556] {processor.py:162} INFO - Started process (PID=3584) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:37:59,558] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:37:59,559] {logging_mixin.py:109} INFO - [2021-09-01 02:37:59,559] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:37:59,574] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:37:59,613] {logging_mixin.py:109} INFO - [2021-09-01 02:37:59,612] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:37:59,637] {logging_mixin.py:109} INFO - [2021-09-01 02:37:59,636] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:37:59,663] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.112 seconds
+[2021-09-01 02:38:29,781] {processor.py:162} INFO - Started process (PID=3604) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:38:29,782] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:38:29,783] {logging_mixin.py:109} INFO - [2021-09-01 02:38:29,783] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:38:29,794] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:38:29,818] {logging_mixin.py:109} INFO - [2021-09-01 02:38:29,818] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:38:29,837] {logging_mixin.py:109} INFO - [2021-09-01 02:38:29,837] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:38:29,855] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.081 seconds
+[2021-09-01 02:38:59,968] {processor.py:162} INFO - Started process (PID=3625) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:38:59,969] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:38:59,970] {logging_mixin.py:109} INFO - [2021-09-01 02:38:59,970] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:38:59,982] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:39:00,015] {logging_mixin.py:109} INFO - [2021-09-01 02:39:00,015] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:39:00,036] {logging_mixin.py:109} INFO - [2021-09-01 02:39:00,036] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:39:00,072] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.108 seconds
+[2021-09-01 02:39:30,163] {processor.py:162} INFO - Started process (PID=3653) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:39:30,165] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:39:30,166] {logging_mixin.py:109} INFO - [2021-09-01 02:39:30,165] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:39:30,177] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:39:30,206] {logging_mixin.py:109} INFO - [2021-09-01 02:39:30,206] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:39:30,226] {logging_mixin.py:109} INFO - [2021-09-01 02:39:30,226] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:39:30,252] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.096 seconds
+[2021-09-01 02:40:00,342] {processor.py:162} INFO - Started process (PID=3674) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:40:00,344] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:40:00,346] {logging_mixin.py:109} INFO - [2021-09-01 02:40:00,346] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:40:00,361] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:40:00,387] {logging_mixin.py:109} INFO - [2021-09-01 02:40:00,386] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:40:00,403] {logging_mixin.py:109} INFO - [2021-09-01 02:40:00,403] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:40:00,427] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.089 seconds
+[2021-09-01 02:40:30,534] {processor.py:162} INFO - Started process (PID=3704) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:40:30,535] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:40:30,536] {logging_mixin.py:109} INFO - [2021-09-01 02:40:30,536] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:40:30,547] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:40:30,568] {logging_mixin.py:109} INFO - [2021-09-01 02:40:30,568] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:40:30,584] {logging_mixin.py:109} INFO - [2021-09-01 02:40:30,584] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:40:30,607] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.076 seconds
+[2021-09-01 02:41:00,707] {processor.py:162} INFO - Started process (PID=3724) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:41:00,708] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:41:00,709] {logging_mixin.py:109} INFO - [2021-09-01 02:41:00,709] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:41:00,720] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:41:00,753] {logging_mixin.py:109} INFO - [2021-09-01 02:41:00,753] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:41:00,772] {logging_mixin.py:109} INFO - [2021-09-01 02:41:00,772] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:41:00,802] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.100 seconds
+[2021-09-01 02:41:30,843] {processor.py:162} INFO - Started process (PID=3742) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:41:30,844] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:41:30,845] {logging_mixin.py:109} INFO - [2021-09-01 02:41:30,845] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:41:30,856] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:41:30,885] {logging_mixin.py:109} INFO - [2021-09-01 02:41:30,885] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:41:30,921] {logging_mixin.py:109} INFO - [2021-09-01 02:41:30,921] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:41:30,957] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.118 seconds
+[2021-09-01 02:42:01,093] {processor.py:162} INFO - Started process (PID=3771) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:42:01,094] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:42:01,095] {logging_mixin.py:109} INFO - [2021-09-01 02:42:01,095] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:42:01,106] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:42:01,129] {logging_mixin.py:109} INFO - [2021-09-01 02:42:01,128] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:42:01,144] {logging_mixin.py:109} INFO - [2021-09-01 02:42:01,144] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:42:01,170] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.081 seconds
+[2021-09-01 02:42:31,276] {processor.py:162} INFO - Started process (PID=3791) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:42:31,277] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:42:31,278] {logging_mixin.py:109} INFO - [2021-09-01 02:42:31,278] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:42:31,290] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:42:31,314] {logging_mixin.py:109} INFO - [2021-09-01 02:42:31,313] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:42:31,338] {logging_mixin.py:109} INFO - [2021-09-01 02:42:31,338] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:42:31,364] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.092 seconds
+[2021-09-01 02:43:01,479] {processor.py:162} INFO - Started process (PID=3815) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:43:01,481] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:43:01,483] {logging_mixin.py:109} INFO - [2021-09-01 02:43:01,482] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:43:01,498] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:43:01,520] {logging_mixin.py:109} INFO - [2021-09-01 02:43:01,519] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:43:01,536] {logging_mixin.py:109} INFO - [2021-09-01 02:43:01,535] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:43:01,563] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.090 seconds
+[2021-09-01 02:43:31,675] {processor.py:162} INFO - Started process (PID=3843) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:43:31,676] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:43:31,677] {logging_mixin.py:109} INFO - [2021-09-01 02:43:31,677] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:43:31,687] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:43:31,718] {logging_mixin.py:109} INFO - [2021-09-01 02:43:31,717] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:43:31,746] {logging_mixin.py:109} INFO - [2021-09-01 02:43:31,746] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:43:31,783] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.113 seconds
+[2021-09-01 02:44:01,903] {processor.py:162} INFO - Started process (PID=3864) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:44:01,910] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:44:01,911] {logging_mixin.py:109} INFO - [2021-09-01 02:44:01,911] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:44:01,932] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:44:01,962] {logging_mixin.py:109} INFO - [2021-09-01 02:44:01,962] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:44:01,985] {logging_mixin.py:109} INFO - [2021-09-01 02:44:01,985] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:44:02,013] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.115 seconds
+[2021-09-01 02:44:32,117] {processor.py:162} INFO - Started process (PID=3892) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:44:32,118] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:44:32,119] {logging_mixin.py:109} INFO - [2021-09-01 02:44:32,118] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:44:32,131] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:44:32,159] {logging_mixin.py:109} INFO - [2021-09-01 02:44:32,159] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:44:32,178] {logging_mixin.py:109} INFO - [2021-09-01 02:44:32,178] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:44:32,205] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.092 seconds
+[2021-09-01 02:45:02,340] {processor.py:162} INFO - Started process (PID=3914) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:45:02,342] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:45:02,342] {logging_mixin.py:109} INFO - [2021-09-01 02:45:02,342] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:45:02,353] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:45:02,381] {logging_mixin.py:109} INFO - [2021-09-01 02:45:02,381] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:45:02,412] {logging_mixin.py:109} INFO - [2021-09-01 02:45:02,412] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:45:02,446] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.109 seconds
+[2021-09-01 02:45:32,599] {processor.py:162} INFO - Started process (PID=3935) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:45:32,601] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:45:32,601] {logging_mixin.py:109} INFO - [2021-09-01 02:45:32,601] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:45:32,612] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:45:32,644] {logging_mixin.py:109} INFO - [2021-09-01 02:45:32,644] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:45:32,664] {logging_mixin.py:109} INFO - [2021-09-01 02:45:32,664] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:45:32,689] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.093 seconds
+[2021-09-01 02:46:02,804] {processor.py:162} INFO - Started process (PID=3963) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:46:02,806] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:46:02,807] {logging_mixin.py:109} INFO - [2021-09-01 02:46:02,807] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:46:02,818] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:46:02,841] {logging_mixin.py:109} INFO - [2021-09-01 02:46:02,841] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:46:02,862] {logging_mixin.py:109} INFO - [2021-09-01 02:46:02,862] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:46:02,901] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.101 seconds
+[2021-09-01 02:46:33,018] {processor.py:162} INFO - Started process (PID=3984) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:46:33,020] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:46:33,021] {logging_mixin.py:109} INFO - [2021-09-01 02:46:33,021] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:46:33,033] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:46:33,061] {logging_mixin.py:109} INFO - [2021-09-01 02:46:33,060] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:46:33,079] {logging_mixin.py:109} INFO - [2021-09-01 02:46:33,079] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:46:33,103] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.089 seconds
+[2021-09-01 02:47:03,223] {processor.py:162} INFO - Started process (PID=4011) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:47:03,224] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:47:03,225] {logging_mixin.py:109} INFO - [2021-09-01 02:47:03,225] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:47:03,236] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:47:03,257] {logging_mixin.py:109} INFO - [2021-09-01 02:47:03,257] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:47:03,273] {logging_mixin.py:109} INFO - [2021-09-01 02:47:03,273] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:47:03,294] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.074 seconds
+[2021-09-01 02:47:33,405] {processor.py:162} INFO - Started process (PID=4033) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:47:33,407] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:47:33,407] {logging_mixin.py:109} INFO - [2021-09-01 02:47:33,407] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:47:33,418] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:47:33,451] {logging_mixin.py:109} INFO - [2021-09-01 02:47:33,451] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:47:33,471] {logging_mixin.py:109} INFO - [2021-09-01 02:47:33,471] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:47:33,500] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.102 seconds
+[2021-09-01 02:48:03,631] {processor.py:162} INFO - Started process (PID=4053) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:48:03,633] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:48:03,633] {logging_mixin.py:109} INFO - [2021-09-01 02:48:03,633] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:48:03,645] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:48:03,677] {logging_mixin.py:109} INFO - [2021-09-01 02:48:03,677] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:48:03,700] {logging_mixin.py:109} INFO - [2021-09-01 02:48:03,700] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:48:03,722] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.096 seconds
+[2021-09-01 02:48:33,831] {processor.py:162} INFO - Started process (PID=4083) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:48:33,833] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:48:33,833] {logging_mixin.py:109} INFO - [2021-09-01 02:48:33,833] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:48:33,844] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:48:33,865] {logging_mixin.py:109} INFO - [2021-09-01 02:48:33,865] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:48:33,880] {logging_mixin.py:109} INFO - [2021-09-01 02:48:33,880] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:48:33,978] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.150 seconds
+[2021-09-01 02:49:04,103] {processor.py:162} INFO - Started process (PID=4103) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:49:04,105] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:49:04,106] {logging_mixin.py:109} INFO - [2021-09-01 02:49:04,106] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:49:04,116] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:49:04,148] {logging_mixin.py:109} INFO - [2021-09-01 02:49:04,148] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:49:04,170] {logging_mixin.py:109} INFO - [2021-09-01 02:49:04,170] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:49:04,193] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.094 seconds
+[2021-09-01 02:49:34,306] {processor.py:162} INFO - Started process (PID=4131) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:49:34,307] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:49:34,308] {logging_mixin.py:109} INFO - [2021-09-01 02:49:34,308] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:49:34,319] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:49:34,344] {logging_mixin.py:109} INFO - [2021-09-01 02:49:34,344] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:49:34,365] {logging_mixin.py:109} INFO - [2021-09-01 02:49:34,365] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:49:34,395] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.092 seconds
+[2021-09-01 02:50:04,513] {processor.py:162} INFO - Started process (PID=4152) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:50:04,514] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:50:04,515] {logging_mixin.py:109} INFO - [2021-09-01 02:50:04,515] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:50:04,526] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:50:04,561] {logging_mixin.py:109} INFO - [2021-09-01 02:50:04,561] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:50:04,581] {logging_mixin.py:109} INFO - [2021-09-01 02:50:04,581] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:50:04,612] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.108 seconds
+[2021-09-01 02:50:34,714] {processor.py:162} INFO - Started process (PID=4172) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:50:34,715] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:50:34,716] {logging_mixin.py:109} INFO - [2021-09-01 02:50:34,716] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:50:34,727] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:50:34,754] {logging_mixin.py:109} INFO - [2021-09-01 02:50:34,753] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:50:34,775] {logging_mixin.py:109} INFO - [2021-09-01 02:50:34,775] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:50:34,800] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.089 seconds
+[2021-09-01 02:51:04,911] {processor.py:162} INFO - Started process (PID=4199) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:51:04,912] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:51:04,913] {logging_mixin.py:109} INFO - [2021-09-01 02:51:04,913] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:51:04,926] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:51:04,951] {logging_mixin.py:109} INFO - [2021-09-01 02:51:04,951] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:51:04,970] {logging_mixin.py:109} INFO - [2021-09-01 02:51:04,970] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:51:04,990] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.083 seconds
+[2021-09-01 02:51:35,119] {processor.py:162} INFO - Started process (PID=4220) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:51:35,121] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:51:35,122] {logging_mixin.py:109} INFO - [2021-09-01 02:51:35,121] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:51:35,134] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:51:35,162] {logging_mixin.py:109} INFO - [2021-09-01 02:51:35,162] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:51:35,181] {logging_mixin.py:109} INFO - [2021-09-01 02:51:35,181] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:51:35,208] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.094 seconds
+[2021-09-01 02:52:05,316] {processor.py:162} INFO - Started process (PID=4248) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:52:05,318] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:52:05,319] {logging_mixin.py:109} INFO - [2021-09-01 02:52:05,319] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:52:05,329] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:52:05,350] {logging_mixin.py:109} INFO - [2021-09-01 02:52:05,350] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:52:05,366] {logging_mixin.py:109} INFO - [2021-09-01 02:52:05,366] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:52:05,395] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.082 seconds
+[2021-09-01 02:52:35,499] {processor.py:162} INFO - Started process (PID=4270) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:52:35,500] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:52:35,500] {logging_mixin.py:109} INFO - [2021-09-01 02:52:35,500] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:52:35,512] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:52:35,548] {logging_mixin.py:109} INFO - [2021-09-01 02:52:35,548] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:52:35,569] {logging_mixin.py:109} INFO - [2021-09-01 02:52:35,568] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:52:35,614] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.121 seconds
+[2021-09-01 02:53:05,706] {processor.py:162} INFO - Started process (PID=4291) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:53:05,708] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:53:05,709] {logging_mixin.py:109} INFO - [2021-09-01 02:53:05,709] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:53:05,725] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:53:05,756] {logging_mixin.py:109} INFO - [2021-09-01 02:53:05,756] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:53:05,779] {logging_mixin.py:109} INFO - [2021-09-01 02:53:05,779] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:53:05,800] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.099 seconds
+[2021-09-01 02:53:35,904] {processor.py:162} INFO - Started process (PID=4319) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:53:35,905] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:53:35,906] {logging_mixin.py:109} INFO - [2021-09-01 02:53:35,906] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:53:35,918] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:53:35,950] {logging_mixin.py:109} INFO - [2021-09-01 02:53:35,950] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:53:35,971] {logging_mixin.py:109} INFO - [2021-09-01 02:53:35,971] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:53:36,006] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.108 seconds
+[2021-09-01 02:54:06,129] {processor.py:162} INFO - Started process (PID=4340) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:54:06,132] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:54:06,132] {logging_mixin.py:109} INFO - [2021-09-01 02:54:06,132] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:54:06,143] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:54:06,173] {logging_mixin.py:109} INFO - [2021-09-01 02:54:06,173] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:54:06,194] {logging_mixin.py:109} INFO - [2021-09-01 02:54:06,194] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:54:06,221] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.098 seconds
+[2021-09-01 02:54:36,420] {processor.py:162} INFO - Started process (PID=4361) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:54:36,422] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:54:36,422] {logging_mixin.py:109} INFO - [2021-09-01 02:54:36,422] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:54:36,434] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:54:36,468] {logging_mixin.py:109} INFO - [2021-09-01 02:54:36,468] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:54:36,487] {logging_mixin.py:109} INFO - [2021-09-01 02:54:36,487] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:54:36,522] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.109 seconds
+[2021-09-01 02:55:06,617] {processor.py:162} INFO - Started process (PID=4388) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:55:06,620] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:55:06,621] {logging_mixin.py:109} INFO - [2021-09-01 02:55:06,620] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:55:06,631] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:55:06,655] {logging_mixin.py:109} INFO - [2021-09-01 02:55:06,655] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:55:06,672] {logging_mixin.py:109} INFO - [2021-09-01 02:55:06,672] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:55:06,698] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.086 seconds
+[2021-09-01 02:55:36,799] {processor.py:162} INFO - Started process (PID=4408) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:55:36,801] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:55:36,801] {logging_mixin.py:109} INFO - [2021-09-01 02:55:36,801] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:55:36,812] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:55:36,842] {logging_mixin.py:109} INFO - [2021-09-01 02:55:36,842] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:55:36,865] {logging_mixin.py:109} INFO - [2021-09-01 02:55:36,864] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:55:36,895] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.100 seconds
+[2021-09-01 02:56:06,979] {processor.py:162} INFO - Started process (PID=4436) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:56:06,981] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:56:06,981] {logging_mixin.py:109} INFO - [2021-09-01 02:56:06,981] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:56:06,993] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:56:07,017] {logging_mixin.py:109} INFO - [2021-09-01 02:56:07,017] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:56:07,035] {logging_mixin.py:109} INFO - [2021-09-01 02:56:07,035] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:56:07,058] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.083 seconds
+[2021-09-01 02:56:37,143] {processor.py:162} INFO - Started process (PID=4457) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:56:37,144] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:56:37,145] {logging_mixin.py:109} INFO - [2021-09-01 02:56:37,145] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:56:37,166] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:56:37,202] {logging_mixin.py:109} INFO - [2021-09-01 02:56:37,202] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:56:37,224] {logging_mixin.py:109} INFO - [2021-09-01 02:56:37,224] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:56:37,249] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.110 seconds
+[2021-09-01 02:57:07,290] {processor.py:162} INFO - Started process (PID=4473) to work on /opt/airflow/dags/test.py
+[2021-09-01 02:57:07,291] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 02:57:07,292] {logging_mixin.py:109} INFO - [2021-09-01 02:57:07,292] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 02:57:07,308] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 02:57:07,336] {logging_mixin.py:109} INFO - [2021-09-01 02:57:07,335] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 02:57:07,370] {logging_mixin.py:109} INFO - [2021-09-01 02:57:07,370] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 02:57:07,386] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.101 seconds
+[2021-09-01 05:36:56,204] {processor.py:162} INFO - Started process (PID=4495) to work on /opt/airflow/dags/test.py
+[2021-09-01 05:36:56,205] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 05:36:56,206] {logging_mixin.py:109} INFO - [2021-09-01 05:36:56,206] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 05:36:56,215] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 05:36:56,239] {logging_mixin.py:109} INFO - [2021-09-01 05:36:56,239] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 05:36:56,256] {logging_mixin.py:109} INFO - [2021-09-01 05:36:56,256] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 05:36:57,703] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 1.502 seconds
+[2021-09-01 05:37:27,836] {processor.py:162} INFO - Started process (PID=4523) to work on /opt/airflow/dags/test.py
+[2021-09-01 05:37:27,838] {processor.py:613} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-09-01 05:37:27,839] {logging_mixin.py:109} INFO - [2021-09-01 05:37:27,839] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-09-01 05:37:27,852] {processor.py:623} INFO - DAG(s) dict_keys(['joke']) retrieved from /opt/airflow/dags/test.py
+[2021-09-01 05:37:27,882] {logging_mixin.py:109} INFO - [2021-09-01 05:37:27,882] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-01 05:37:27,928] {logging_mixin.py:109} INFO - [2021-09-01 05:37:27,928] {dag.py:2306} INFO - Setting next_dagrun for joke to 2021-08-30 00:00:00+00:00
+[2021-09-01 05:37:28,037] {processor.py:170} INFO - Processing /opt/airflow/dags/test.py took 0.204 seconds
