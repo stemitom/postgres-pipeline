@@ -4,3 +4,5 @@ CREATE TABLE IF NOT EXISTS covid_data (
     hospitalized_count INT,
     death_count INT
 );
+
+TRUNCATE TABLE covid_data;
