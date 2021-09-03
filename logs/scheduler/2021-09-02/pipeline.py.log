@@ -1,0 +1,204 @@
+[2021-09-02 23:53:44,050] {processor.py:162} INFO - Started process (PID=117) to work on /opt/airflow/dags/pipeline.py
+[2021-09-02 23:53:44,051] {processor.py:613} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2021-09-02 23:53:44,052] {logging_mixin.py:109} INFO - [2021-09-02 23:53:44,052] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:53:44,390] {logging_mixin.py:109} INFO - [2021-09-02 23:53:44,055] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline.py", line 37
+    f.write(response.text)
+    ^
+IndentationError: expected an indented block
+[2021-09-02 23:53:44,391] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:53:45,022] {processor.py:170} INFO - Processing /opt/airflow/dags/pipeline.py took 0.985 seconds
+[2021-09-02 23:54:15,137] {processor.py:162} INFO - Started process (PID=133) to work on /opt/airflow/dags/pipeline.py
+[2021-09-02 23:54:15,143] {processor.py:613} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2021-09-02 23:54:15,144] {logging_mixin.py:109} INFO - [2021-09-02 23:54:15,143] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:54:15,148] {logging_mixin.py:109} INFO - [2021-09-02 23:54:15,146] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline.py", line 37
+    f.write(response.text)
+    ^
+IndentationError: expected an indented block
+[2021-09-02 23:54:15,160] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:54:15,372] {processor.py:170} INFO - Processing /opt/airflow/dags/pipeline.py took 0.249 seconds
+[2021-09-02 23:54:45,648] {processor.py:162} INFO - Started process (PID=149) to work on /opt/airflow/dags/pipeline.py
+[2021-09-02 23:54:45,650] {processor.py:613} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2021-09-02 23:54:45,651] {logging_mixin.py:109} INFO - [2021-09-02 23:54:45,651] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:54:46,117] {logging_mixin.py:109} INFO - [2021-09-02 23:54:46,116] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline.py", line 37
+    f.write(response.text)
+    ^
+IndentationError: expected an indented block
+[2021-09-02 23:54:46,119] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:54:46,268] {processor.py:170} INFO - Processing /opt/airflow/dags/pipeline.py took 0.625 seconds
+[2021-09-02 23:55:16,778] {processor.py:162} INFO - Started process (PID=165) to work on /opt/airflow/dags/pipeline.py
+[2021-09-02 23:55:16,786] {processor.py:613} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2021-09-02 23:55:16,791] {logging_mixin.py:109} INFO - [2021-09-02 23:55:16,791] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:55:16,816] {logging_mixin.py:109} INFO - [2021-09-02 23:55:16,814] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline.py", line 37
+    f.write(response.text)
+    ^
+IndentationError: expected an indented block
+[2021-09-02 23:55:16,818] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:55:16,977] {processor.py:170} INFO - Processing /opt/airflow/dags/pipeline.py took 0.211 seconds
+[2021-09-02 23:55:47,334] {processor.py:162} INFO - Started process (PID=181) to work on /opt/airflow/dags/pipeline.py
+[2021-09-02 23:55:47,336] {processor.py:613} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2021-09-02 23:55:47,336] {logging_mixin.py:109} INFO - [2021-09-02 23:55:47,336] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:55:47,516] {logging_mixin.py:109} INFO - [2021-09-02 23:55:47,515] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline.py", line 37
+    f.write(response.text)
+    ^
+IndentationError: expected an indented block
+[2021-09-02 23:55:47,517] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:55:47,657] {processor.py:170} INFO - Processing /opt/airflow/dags/pipeline.py took 0.458 seconds
+[2021-09-02 23:56:17,811] {processor.py:162} INFO - Started process (PID=197) to work on /opt/airflow/dags/pipeline.py
+[2021-09-02 23:56:17,813] {processor.py:613} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2021-09-02 23:56:17,816] {logging_mixin.py:109} INFO - [2021-09-02 23:56:17,816] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:56:17,821] {logging_mixin.py:109} INFO - [2021-09-02 23:56:17,819] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline.py", line 37
+    f.write(response.text)
+    ^
+IndentationError: expected an indented block
+[2021-09-02 23:56:17,823] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:56:18,279] {processor.py:170} INFO - Processing /opt/airflow/dags/pipeline.py took 0.473 seconds
+[2021-09-02 23:56:48,412] {processor.py:162} INFO - Started process (PID=222) to work on /opt/airflow/dags/pipeline.py
+[2021-09-02 23:56:48,415] {processor.py:613} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2021-09-02 23:56:48,424] {logging_mixin.py:109} INFO - [2021-09-02 23:56:48,424] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:56:48,432] {logging_mixin.py:109} INFO - [2021-09-02 23:56:48,431] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline.py", line 37
+    f.write(response.text)
+    ^
+IndentationError: expected an indented block
+[2021-09-02 23:56:48,434] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:56:48,518] {processor.py:170} INFO - Processing /opt/airflow/dags/pipeline.py took 0.110 seconds
+[2021-09-02 23:57:22,609] {processor.py:162} INFO - Started process (PID=238) to work on /opt/airflow/dags/pipeline.py
+[2021-09-02 23:57:22,611] {processor.py:613} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2021-09-02 23:57:22,612] {logging_mixin.py:109} INFO - [2021-09-02 23:57:22,612] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:57:23,701] {logging_mixin.py:109} INFO - [2021-09-02 23:57:22,650] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline.py", line 37
+    f.write(response.text)
+    ^
+IndentationError: expected an indented block
+[2021-09-02 23:57:25,004] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:57:31,885] {processor.py:170} INFO - Processing /opt/airflow/dags/pipeline.py took 12.299 seconds
+[2021-09-02 23:58:02,981] {processor.py:162} INFO - Started process (PID=262) to work on /opt/airflow/dags/pipeline.py
+[2021-09-02 23:58:02,987] {processor.py:613} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2021-09-02 23:58:02,993] {logging_mixin.py:109} INFO - [2021-09-02 23:58:02,993] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:58:02,999] {logging_mixin.py:109} INFO - [2021-09-02 23:58:02,997] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline.py", line 37
+    f.write(response.text)
+    ^
+IndentationError: expected an indented block
+[2021-09-02 23:58:03,004] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:58:03,056] {processor.py:170} INFO - Processing /opt/airflow/dags/pipeline.py took 0.138 seconds
+[2021-09-02 23:58:33,297] {processor.py:162} INFO - Started process (PID=278) to work on /opt/airflow/dags/pipeline.py
+[2021-09-02 23:58:33,299] {processor.py:613} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2021-09-02 23:58:33,325] {logging_mixin.py:109} INFO - [2021-09-02 23:58:33,325] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:58:33,361] {logging_mixin.py:109} INFO - [2021-09-02 23:58:33,327] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline.py", line 37
+    f.write(response.text)
+    ^
+IndentationError: expected an indented block
+[2021-09-02 23:58:33,361] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:58:33,471] {processor.py:170} INFO - Processing /opt/airflow/dags/pipeline.py took 0.189 seconds
+[2021-09-02 23:59:04,301] {processor.py:162} INFO - Started process (PID=294) to work on /opt/airflow/dags/pipeline.py
+[2021-09-02 23:59:04,350] {processor.py:613} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2021-09-02 23:59:04,366] {logging_mixin.py:109} INFO - [2021-09-02 23:59:04,366] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:59:04,442] {logging_mixin.py:109} INFO - [2021-09-02 23:59:04,405] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline.py", line 37
+    f.write(response.text)
+    ^
+IndentationError: expected an indented block
+[2021-09-02 23:59:04,445] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:59:04,696] {processor.py:170} INFO - Processing /opt/airflow/dags/pipeline.py took 0.400 seconds
+[2021-09-02 23:59:34,894] {processor.py:162} INFO - Started process (PID=315) to work on /opt/airflow/dags/pipeline.py
+[2021-09-02 23:59:34,898] {processor.py:613} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2021-09-02 23:59:34,901] {logging_mixin.py:109} INFO - [2021-09-02 23:59:34,901] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:59:34,920] {logging_mixin.py:109} INFO - [2021-09-02 23:59:34,918] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline.py", line 37
+    f.write(response.text)
+    ^
+IndentationError: expected an indented block
+[2021-09-02 23:59:34,923] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline.py
+[2021-09-02 23:59:35,610] {processor.py:170} INFO - Processing /opt/airflow/dags/pipeline.py took 0.740 seconds

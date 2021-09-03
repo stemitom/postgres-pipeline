@@ -9949,3 +9949,369 @@ File Path                      PID    Runtime      # DAGs    # Errors  Last Runt
 /opt/airflow/dags/pipeline.py                           1           0  1.52s           2021-09-01T05:36:57
 ================================================================================
 [2021-09-01 05:37:35,919] {manager.py:585} INFO - Exiting gracefully upon receiving signal 15
+[2021-09-02 23:53:37,867] {manager.py:604} INFO - Processing files using up to 2 processes at a time 
+[2021-09-02 23:53:38,117] {manager.py:605} INFO - Process each file at most once every 30 seconds
+[2021-09-02 23:53:38,348] {manager.py:606} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2021-09-02 23:53:38,349] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2021-09-02 23:53:40,694] {manager.py:757} INFO - There are 2 files in /opt/airflow/dags
+[2021-09-02 23:53:44,037] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:53:44,039] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:48:44.039021+00:00
+[2021-09-02 23:53:44,080] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/test.py        118  0.05s             0           0
+/opt/airflow/dags/pipeline.py    117  0.05s             0           0
+================================================================================
+[2021-09-02 23:53:54,095] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:53:54,095] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:48:54.095881+00:00
+[2021-09-02 23:54:04,122] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:54:04,123] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:49:04.123017+00:00
+[2021-09-02 23:54:14,110] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test.py        118  30.08s            0           0
+/opt/airflow/dags/pipeline.py                           0           1  1.00s           2021-09-02T23:53:45
+================================================================================
+[2021-09-02 23:54:14,154] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:54:14,155] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:49:14.155036+00:00
+[2021-09-02 23:54:24,386] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:54:24,386] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:49:24.386530+00:00
+[2021-09-02 23:54:34,431] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:54:34,432] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:49:34.432005+00:00
+[2021-09-02 23:54:44,475] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:54:44,476] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:49:44.475967+00:00
+[2021-09-02 23:54:44,490] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.27s           2021-09-02T23:54:15
+/opt/airflow/dags/test.py                               1           0  31.32s          2021-09-02T23:54:15
+================================================================================
+[2021-09-02 23:54:54,523] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:54:54,523] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:49:54.523409+00:00
+[2021-09-02 23:55:04,559] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:55:04,559] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:50:04.559869+00:00
+[2021-09-02 23:55:14,601] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:55:14,602] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:50:14.602824+00:00
+[2021-09-02 23:55:14,615] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.82s           2021-09-02T23:54:46
+/opt/airflow/dags/test.py                               1           0  1.12s           2021-09-02T23:54:46
+================================================================================
+[2021-09-02 23:55:25,013] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:55:25,014] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:50:25.014309+00:00
+[2021-09-02 23:55:35,042] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:55:35,044] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:50:35.044354+00:00
+[2021-09-02 23:55:45,110] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:55:45,110] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:50:45.110932+00:00
+[2021-09-02 23:55:45,123] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.37s           2021-09-02T23:55:16
+/opt/airflow/dags/test.py                               1           0  0.47s           2021-09-02T23:55:17
+================================================================================
+[2021-09-02 23:55:55,688] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:55:55,688] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:50:55.688894+00:00
+[2021-09-02 23:56:05,732] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:56:05,732] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:51:05.732887+00:00
+[2021-09-02 23:56:15,775] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:56:15,775] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:51:15.775556+00:00
+[2021-09-02 23:56:15,783] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.54s           2021-09-02T23:55:47
+/opt/airflow/dags/test.py                               1           0  0.65s           2021-09-02T23:55:47
+================================================================================
+[2021-09-02 23:56:26,310] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:56:26,311] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:51:26.311056+00:00
+[2021-09-02 23:56:36,351] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:56:36,351] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:51:36.351603+00:00
+[2021-09-02 23:56:46,383] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:56:46,385] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:51:46.385351+00:00
+[2021-09-02 23:56:46,395] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.50s           2021-09-02T23:56:18
+/opt/airflow/dags/test.py                               1           0  0.59s           2021-09-02T23:56:18
+================================================================================
+[2021-09-02 23:56:56,548] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:56:56,549] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:51:56.548970+00:00
+[2021-09-02 23:57:06,579] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:57:06,579] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:52:06.579598+00:00
+[2021-09-02 23:57:16,619] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:57:16,620] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:52:16.620670+00:00
+[2021-09-02 23:57:16,634] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.13s           2021-09-02T23:56:48
+/opt/airflow/dags/test.py                               1           0  0.19s           2021-09-02T23:56:48
+================================================================================
+[2021-09-02 23:57:26,662] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:57:26,663] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:52:26.662995+00:00
+[2021-09-02 23:57:36,799] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:57:36,800] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:52:36.800321+00:00
+[2021-09-02 23:57:46,840] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:57:46,841] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:52:46.841051+00:00
+[2021-09-02 23:57:46,853] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  13.33s          2021-09-02T23:57:31
+/opt/airflow/dags/test.py                               1           0  14.14s          2021-09-02T23:57:32
+================================================================================
+[2021-09-02 23:57:56,887] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:57:56,888] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:52:56.888139+00:00
+[2021-09-02 23:58:07,074] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:58:07,074] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:53:07.074506+00:00
+[2021-09-02 23:58:17,124] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:58:17,124] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:53:17.124924+00:00
+[2021-09-02 23:58:17,143] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.15s           2021-09-02T23:58:03
+/opt/airflow/dags/test.py                               1           0  0.20s           2021-09-02T23:58:03
+================================================================================
+[2021-09-02 23:58:27,164] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:58:27,165] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:53:27.165071+00:00
+[2021-09-02 23:58:37,496] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:58:39,166] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:53:39.166098+00:00
+[2021-09-02 23:58:39,177] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2021-09-02 23:58:39,274] {manager.py:757} INFO - There are 2 files in /opt/airflow/dags
+[2021-09-02 23:58:47,198] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.29s           2021-09-02T23:58:33
+/opt/airflow/dags/test.py                               1           0  0.40s           2021-09-02T23:58:33
+================================================================================
+[2021-09-02 23:58:49,201] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:58:49,202] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:53:49.202500+00:00
+[2021-09-02 23:58:59,244] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:58:59,244] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:53:59.244855+00:00
+[2021-09-02 23:59:09,733] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:59:09,735] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:54:09.735058+00:00
+[2021-09-02 23:59:17,776] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.46s           2021-09-02T23:59:04
+/opt/airflow/dags/test.py                               1           0  0.66s           2021-09-02T23:59:04
+================================================================================
+[2021-09-02 23:59:19,780] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:59:19,782] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:54:19.782035+00:00
+[2021-09-02 23:59:29,812] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:59:29,812] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:54:29.812515+00:00
+[2021-09-02 23:59:40,630] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:59:40,631] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:54:40.631015+00:00
+[2021-09-02 23:59:48,666] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.78s           2021-09-02T23:59:35
+/opt/airflow/dags/test.py                               1           0  0.75s           2021-09-02T23:59:35
+================================================================================
+[2021-09-02 23:59:50,670] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 23:59:50,671] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:54:50.671249+00:00
+[2021-09-03 00:00:00,711] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:00:00,712] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:55:00.712678+00:00
+[2021-09-03 00:00:10,821] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:00:10,824] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:55:10.824572+00:00
+[2021-09-03 00:00:18,697] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.68s           2021-09-03T00:00:06
+/opt/airflow/dags/test.py                               1           0  7.88s           2021-09-03T00:00:13
+================================================================================
+[2021-09-03 00:00:21,461] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:00:21,462] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:55:21.462177+00:00
+[2021-09-03 00:00:31,496] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:00:31,980] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:55:31.980505+00:00
+[2021-09-03 00:00:42,029] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:00:42,030] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:55:42.030085+00:00
+[2021-09-03 00:00:49,193] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  3.16s           2021-09-03T00:00:40
+/opt/airflow/dags/test.py                               1           0  3.43s           2021-09-03T00:00:47
+================================================================================
+[2021-09-03 00:00:52,308] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:00:52,309] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:55:52.308963+00:00
+[2021-09-03 00:01:02,348] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:01:02,349] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:56:02.349641+00:00
+[2021-09-03 00:01:12,400] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:01:12,401] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:56:12.401271+00:00
+[2021-09-03 00:01:19,769] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  3.58s           2021-09-03T00:01:13
+/opt/airflow/dags/test.py        366  2.22s             1           0  3.43s           2021-09-03T00:00:47
+================================================================================
+[2021-09-03 00:01:22,776] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:01:22,776] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:56:22.776822+00:00
+[2021-09-03 00:01:32,807] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:01:32,808] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:56:32.808110+00:00
+[2021-09-03 00:01:42,846] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:01:42,847] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:56:42.847076+00:00
+[2021-09-03 00:01:49,871] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.23s           2021-09-03T00:01:44
+/opt/airflow/dags/test.py                               1           0  8.11s           2021-09-03T00:01:25
+================================================================================
+[2021-09-03 00:01:52,880] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:01:52,881] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:56:52.880974+00:00
+[2021-09-03 00:02:03,006] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:02:03,007] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:57:03.007744+00:00
+[2021-09-03 00:02:13,054] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:02:13,054] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:57:13.054713+00:00
+[2021-09-03 00:02:20,423] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.56s           2021-09-03T00:02:15
+/opt/airflow/dags/test.py                               1           0  0.47s           2021-09-03T00:01:56
+================================================================================
+[2021-09-03 00:02:23,430] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:02:23,430] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:57:23.430458+00:00
+[2021-09-03 00:02:33,664] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:02:33,665] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:57:33.665134+00:00
+[2021-09-03 00:02:43,698] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:02:43,698] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:57:43.698869+00:00
+[2021-09-03 00:02:50,766] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.11s           2021-09-03T00:02:45
+/opt/airflow/dags/test.py                               1           0  0.25s           2021-09-03T00:02:26
+================================================================================
+[2021-09-03 00:02:53,775] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:02:53,775] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:57:53.775369+00:00
+[2021-09-03 00:03:03,855] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:03:03,856] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:58:03.856181+00:00
+[2021-09-03 00:03:13,889] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:03:13,890] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:58:13.890839+00:00
+[2021-09-03 00:03:20,932] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.08s           2021-09-03T00:03:15
+/opt/airflow/dags/test.py                               1           0  0.50s           2021-09-03T00:02:57
+================================================================================
+[2021-09-03 00:03:23,964] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:03:23,965] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:58:23.964963+00:00
+[2021-09-03 00:03:34,030] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:03:34,030] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:58:34.030927+00:00
+[2021-09-03 00:03:40,060] {manager.py:754} INFO - Searching for files in /opt/airflow/dags
+[2021-09-03 00:03:40,062] {manager.py:757} INFO - There are 2 files in /opt/airflow/dags
+[2021-09-03 00:03:44,120] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:03:44,120] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:58:44.120756+00:00
+[2021-09-03 00:03:51,186] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.51s           2021-09-03T00:03:46
+/opt/airflow/dags/test.py                               1           0  0.15s           2021-09-03T00:03:28
+================================================================================
+[2021-09-03 00:03:54,193] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:03:54,193] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:58:54.193733+00:00
+[2021-09-03 00:04:04,253] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:04:04,255] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:59:04.255169+00:00
+[2021-09-03 00:04:14,292] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:04:14,292] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:59:14.292887+00:00
+[2021-09-03 00:04:21,322] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.06s           2021-09-03T00:04:17
+/opt/airflow/dags/test.py                               1           0  0.21s           2021-09-03T00:03:58
+================================================================================
+[2021-09-03 00:04:24,332] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:04:24,333] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:59:24.333073+00:00
+[2021-09-03 00:04:34,404] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:04:34,405] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:59:34.405134+00:00
+[2021-09-03 00:04:44,440] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:04:44,440] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:59:44.440490+00:00
+[2021-09-03 00:04:51,472] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.06s           2021-09-03T00:04:47
+/opt/airflow/dags/test.py                               1           0  0.13s           2021-09-03T00:04:29
+================================================================================
+[2021-09-03 00:04:54,479] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:04:54,479] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 23:59:54.479718+00:00
+[2021-09-03 00:05:04,551] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:05:04,553] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 00:00:04.553466+00:00
+[2021-09-03 00:05:14,595] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:05:14,595] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 00:00:14.595723+00:00
+[2021-09-03 00:05:21,625] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pipeline.py                           0           1  0.14s           2021-09-03T00:05:17
+/opt/airflow/dags/test.py                               1           0  0.44s           2021-09-03T00:04:59
+================================================================================
+[2021-09-03 00:05:24,632] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 00:05:24,632] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 00:00:24.632856+00:00
+[2021-09-03 00:05:28,958] {manager.py:585} INFO - Exiting gracefully upon receiving signal 15
