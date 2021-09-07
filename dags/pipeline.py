@@ -8,7 +8,7 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
-from plugins.operators import csv_to_postgres
+from plugins.operators.csv_to_postgres import LoadCsvtoPostgresOperator
 
 from requests import exceptions
 from pathlib import Path
@@ -19,7 +19,7 @@ args = {
     "provide_context": True,
 }
 
-dag = airflow.DAG(
+dag = DAG(
     "nyc_covid_pipeline",
     schedule_interval="@daily",
     default_args=args,
@@ -45,13 +45,6 @@ def _transform_to_csv(infile, outfile):
     data = pd.DataFrame(content)
     data = data.set_index("data_of_interest")
     data.to_csv(outfile)
-
-def load_csv_to_postgres(table_name, **kwargs):
-    csv_filepath = kwargs['csv_filepath']
-    connection_id = kwargs['connection_id']
-    connecion = PostgresHook(postgres_conn_id=connection_id)
-    connecion.bulk_load(table_name, csv_filepath)
-    return table_name
 
 
 fetch_data = PythonOperator(
@@ -79,15 +72,30 @@ create_table = PostgresOperator(
     dag=dag,
 )
 
-load_csv_to_postgres = PythonOperator(
+# def load_csv_to_postgres(table_name, **kwargs):
+#     csv_filepath = kwargs['csv_filepath']
+#     connection_id = kwargs['connection_id']
+#     connecion = PostgresHook(postgres_conn_id=connection_id)
+#     connecion.bulk_load(table_name, csv_filepath)
+#     return table_name
+
+
+# load_csv_to_postgres = PythonOperator(
+#     task_id='load_to_covid_data_table',
+#     python_callable=load_csv_to_postgres,
+#     op_kwargs={
+#         'csv_filepath': "/data/covid_data_{{ ds }}.csv",
+#         'table_name': 'covid_data'
+#     },
+#     dag=dag
+# )
+
+load_csv_to_postgres_dwh = LoadCsvtoPostgresOperator(
     task_id='load_to_covid_data_table',
-    python_callable=load_csv_to_postgres,
-    op_kwargs={
-        'csv_filepath': "/data/covid_data_{{ ds }}.csv",
-        'table_name': 'covid_data'
-    },
+    postgres_conn_id="covid_postgres",
+    table="covid_data",
+    file_path="/data/covid_data_{{ds}}.csv",
     dag=dag
 )
 
-
-fetch_data >> transform_to_csv >> create_table>> load_csv_to_postgres
+fetch_data >> transform_to_csv >> create_table>> load_csv_to_postgres_dwh
