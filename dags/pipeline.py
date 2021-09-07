@@ -1,4 +1,4 @@
-import json
+import logging
 import requests
 import pathlib
 import airflow
@@ -11,7 +11,7 @@ from airflow.providers.postgres.hooks.postgres import PostgresHook
 from operators.csv_to_postgres import LoadCsvtoPostgresOperator
 from requests import exceptions
 
-
+log = logging.getLogger(__name__)
 args = {
     "owner": "airflow",
     "start_date": airflow.utils.dates.days_ago(1),
@@ -44,8 +44,9 @@ def _fetch_data(outfile):
 def _transform_to_csv(infile, outfile):
     pathlib.Path("/tmp/data/processed").mkdir(parents=True, exist_ok=True)
     data = pd.read_json(infile)
-    data = data.set_index("data_of_interest")
+    data = data.set_index("date_of_interest")
     data.to_csv(outfile)
+    logging.info(f"Processed {infile} and moved it to {outfile}")
 
 
 fetch_data = PythonOperator(
@@ -72,24 +73,6 @@ create_table = PostgresOperator(
     sql="sql/create_table.sql",
     dag=dag,
 )
-
-# def load_csv_to_postgres(table_name, **kwargs):
-#     csv_filepath = kwargs['csv_filepath']
-#     connection_id = kwargs['connection_id']
-#     connecion = PostgresHook(postgres_conn_id=connection_id)
-#     connecion.bulk_load(table_name, csv_filepath)
-#     return table_name
-
-
-# load_csv_to_postgres = PythonOperator(
-#     task_id='load_to_covid_data_table',
-#     python_callable=load_csv_to_postgres,
-#     op_kwargs={
-#         'csv_filepath': "/data/covid_data_{{ ds }}.csv",
-#         'table_name': 'covid_data'
-#     },
-#     dag=dag
-# )
 
 load_csv_to_postgres_dwh = LoadCsvtoPostgresOperator(
     task_id='load_to_covid_data_table',
