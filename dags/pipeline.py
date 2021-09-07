@@ -4,18 +4,15 @@ import airflow
 import datetime as dt
 import pandas as pd
 from airflow import DAG
-from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from plugins.operators.csv_to_postgres import LoadCsvtoPostgresOperator
-
 from requests import exceptions
-from pathlib import Path
 
 args = {
     "owner": "airflow",
-    "start_date": airflow.utils.dates.days_ago(7),
+    "start_date": airflow.utils.dates.days_ago(1),
     "provide_context": True,
 }
 
