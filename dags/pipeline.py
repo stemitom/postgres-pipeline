@@ -1,5 +1,6 @@
 import json
 import requests
+import pathlib
 import airflow
 import datetime as dt
 import pandas as pd
@@ -9,6 +10,7 @@ from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from operators.csv_to_postgres import LoadCsvtoPostgresOperator
 from requests import exceptions
+
 
 args = {
     "owner": "airflow",
@@ -24,22 +26,24 @@ dag = DAG(
 )
 
 
-def _fetch_data(infile):
+def _fetch_data(outfile):
+    pathlib.Path("/tmp/data/raw/").mkdir(parents=True, exist_ok=True)
     url = "https://data.cityofnewyork.us/resource/rc75-m7u3.json"
     try:
         response = requests.get(url)
+        response.raise_for_status()
     except exceptions.MissingSchema:
         print(f"{url} is an invalid URL")
     except exceptions.ConnectionError:
         print(f"Unable to connect to {url}")
     else:
-        with open(infile, "w") as f:
+        with open(outfile, "w") as f:
             f.write(response.text)
 
 
 def _transform_to_csv(infile, outfile):
-    content = json.loads(infile)
-    data = pd.DataFrame(content)
+    pathlib.Path("/tmp/data/processed").mkdir(parents=True, exist_ok=True)
+    data = pd.read_json(infile)
     data = data.set_index("data_of_interest")
     data.to_csv(outfile)
 
@@ -48,7 +52,7 @@ fetch_data = PythonOperator(
     task_id="fetch_data",
     python_callable=_fetch_data,
     dag=dag,
-    op_kwargs={"infile": "/data/covid_data_{{ds}}.json"},
+    op_kwargs={"outfile": "/tmp/data/raw/covid_data.json"},
 )
 
 transform_to_csv = PythonOperator(
@@ -56,8 +60,8 @@ transform_to_csv = PythonOperator(
     python_callable=_transform_to_csv,
     dag=dag,
     op_kwargs={
-        "infile": "/data/covid_data_{{ds}}.json",
-        "outfile": "/data/covid_data_{{ds}}.csv",
+        "infile": "/tmp/data/raw/covid_data.json",
+        "outfile": "/tmp/data/processed/covid_data.csv",
     },
 )
 
@@ -91,7 +95,7 @@ load_csv_to_postgres_dwh = LoadCsvtoPostgresOperator(
     task_id='load_to_covid_data_table',
     postgres_conn_id="covid_postgres",
     table="covid_data",
-    file_path="/data/covid_data_{{ds}}.csv",
+    file_path="/tmp/data/processed/covid_data.csv",
     dag=dag
 )
 
