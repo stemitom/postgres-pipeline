@@ -1,8 +1,6 @@
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.models.baseoperator import BaseOperator
 from airflow.utils.decorators import apply_defaults
-from tempfile import NamedTemporaryFile
-import pandas
 
 class LoadCsvtoPostgresOperator(BaseOperator):
     """
@@ -22,6 +20,6 @@ class LoadCsvtoPostgresOperator(BaseOperator):
     def execute(self, context):
         postgres = PostgresHook(postgres_conn_id=self.postgres_conn_id)
         self.log.info(f"Loading file {self.file_path} into table {self.table}")
-        csv_data = pandas.read_csv(self.file_path)
-        postgres.bulk_load(self.table, csv_data)
+        with open(self.filepath, "r") as f:
+            postgres.bulk_load(self.table, f)
         self.log.info(f"Loaded file {self.file_path} into table {self.table}")
