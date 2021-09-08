@@ -20,6 +20,8 @@ class LoadCsvtoPostgresOperator(BaseOperator):
     def execute(self, context):
         postgres = PostgresHook(postgres_conn_id=self.postgres_conn_id)
         self.log.info(f"Loading file {self.file_path} into table {self.table}")
-        with open(self.filepath, "r") as f:
-            postgres.bulk_load(self.table, f)
+        try:
+            postgres.bulk_load(self.table, self.file_path)
+        except Exception as err:
+            self.log.error(err)
         self.log.info(f"Loaded file {self.file_path} into table {self.table}")
