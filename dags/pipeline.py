@@ -12,6 +12,7 @@ from operators.csv_to_postgres import LoadCsvtoPostgresOperator
 from requests import exceptions
 
 log = logging.getLogger(__name__)
+
 args = {
     "owner": "airflow",
     "start_date": airflow.utils.dates.days_ago(1),
@@ -29,6 +30,7 @@ dag = DAG(
 def _fetch_data(outfile):
     pathlib.Path("/tmp/data/raw/").mkdir(parents=True, exist_ok=True)
     url = "https://data.cityofnewyork.us/resource/rc75-m7u3.json"
+    logging.info(f"INFO: Fetching data from {url}")
     try:
         response = requests.get(url)
         response.raise_for_status()
@@ -46,7 +48,7 @@ def _transform_to_csv(infile, outfile):
     data = pd.read_json(infile)
     data = data.set_index("date_of_interest")
     data.to_csv(outfile)
-    logging.info(f"Processed {infile} and moved it to {outfile}")
+    logging.info(f"INFO: Processed {infile} and moved it to {outfile}")
 
 
 fetch_data = PythonOperator(
