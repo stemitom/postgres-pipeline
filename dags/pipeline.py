@@ -68,7 +68,7 @@ transform_to_csv = PythonOperator(
     },
 )
 
-normalize_csv= PythonOperator(
+normalize_covid_csv = PythonOperator(
         task_id='normalize_covid_csv',
         python_callable=normalize_csv,
         op_kwargs={
@@ -94,4 +94,4 @@ load_csv_to_postgres_dwh = LoadCsvtoPostgresOperator(
     dag=dag
 )
 
-fetch_data >> transform_to_csv >> normalize_csv >> create_covid_data_table>> load_csv_to_postgres_dwh
+fetch_data >> transform_to_csv >> normalize_covid_csv >> create_covid_data_table>> load_csv_to_postgres_dwh
