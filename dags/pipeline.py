@@ -72,8 +72,8 @@ normalize_covid_csv = PythonOperator(
         task_id='normalize_covid_csv',
         python_callable=normalize_csv,
         op_kwargs={
-            'source': "/data/raw/covid_data_{{ ds }}.csv",
-            'target': "/data/stg/covid_data_{{ ds }}.csv"
+            'source': "/tmp/data/raw/covid_data_{{ ds }}.csv",
+            'target': "/tmp/data/stg/covid_data_{{ ds }}.csv"
         },
         dag=dag
 
