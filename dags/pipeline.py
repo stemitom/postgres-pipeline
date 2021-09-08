@@ -10,6 +10,7 @@ from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from operators.csv_to_postgres import LoadCsvtoPostgresOperator
 from requests import exceptions
+from utils.csv_utils import normalize_csv
 
 log = logging.getLogger(__name__)
 
@@ -44,7 +45,7 @@ def _fetch_data(outfile):
 
 
 def _transform_to_csv(infile, outfile):
-    pathlib.Path("/tmp/data/processed").mkdir(parents=True, exist_ok=True)
+    pathlib.Path("/tmp/data/stg").mkdir(parents=True, exist_ok=True)
     data = pd.read_json(infile)
     data = data.set_index("date_of_interest")
     data.to_csv(outfile)
@@ -55,7 +56,7 @@ fetch_data = PythonOperator(
     task_id="fetch_data",
     python_callable=_fetch_data,
     dag=dag,
-    op_kwargs={"outfile": "/tmp/data/raw/covid_data.json"},
+    op_kwargs={"outfile": "/tmp/stg/raw/covid_data_{{ ds }}.json"},
 )
 
 transform_to_csv = PythonOperator(
@@ -63,13 +64,23 @@ transform_to_csv = PythonOperator(
     python_callable=_transform_to_csv,
     dag=dag,
     op_kwargs={
-        "infile": "/tmp/data/raw/covid_data.json",
-        "outfile": "/tmp/data/processed/covid_data.csv",
+        "infile": "/tmp/data/raw/covid_data_{{ ds }}.json",
+        "outfile": "/tmp/data/raw/covid_data_{{ ds }}.csv",
     },
 )
 
+normalize_csv= PythonOperator(
+        task_id='normalize_covid_csv',
+        python_callable=normalize_csv,
+        op_kwargs={
+            'source': "/data/raw/covid_data_{{ ds }}.csv",
+            'target': "/data/stg/covid_data_{{ ds }}.csv"
+        },
+        dag=dag
 
-create_table = PostgresOperator(
+    )
+
+create_covid_data_table = PostgresOperator(
     task_id="create_table_covid",
     postgres_conn_id="covid_postgres",
     sql="sql/create_table.sql",
@@ -79,9 +90,9 @@ create_table = PostgresOperator(
 load_csv_to_postgres_dwh = LoadCsvtoPostgresOperator(
     task_id='load_to_covid_data_table',
     postgres_conn_id="covid_postgres",
-    table="covid_data",
-    file_path="/tmp/data/processed/covid_data.csv",
+    table="covid_data_normalized",
+    file_path="/tmp/data/stg/covid_data_{{ ds }}.csv",
     dag=dag
 )
 
-fetch_data >> transform_to_csv >> create_table>> load_csv_to_postgres_dwh
+fetch_data >> transform_to_csv >> normalize_csv >> create_covid_data_table>> load_csv_to_postgres_dwh
