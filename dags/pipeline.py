@@ -55,7 +55,7 @@ fetch_data = PythonOperator(
     task_id="fetch_data",
     python_callable=_fetch_data,
     dag=dag,
-    op_kwargs={"outfile": "/tmp/stg/raw/covid_data_{{ ds }}.json"},
+    op_kwargs={"outfile": "/tmp/data/raw/covid_data_{{ ds }}.json"},
 )
 
 transform_to_csv = PythonOperator(
