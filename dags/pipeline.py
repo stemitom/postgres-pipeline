@@ -27,7 +27,6 @@ dag = DAG(
     max_active_runs=1,
 )
 
-
 def _fetch_data(outfile):
     pathlib.Path("/tmp/data/raw/").mkdir(parents=True, exist_ok=True)
     url = "https://data.cityofnewyork.us/resource/rc75-m7u3.json"
