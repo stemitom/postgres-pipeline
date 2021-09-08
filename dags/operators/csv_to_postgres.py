@@ -6,8 +6,7 @@ class LoadCsvtoPostgresOperator(BaseOperator):
     """
     Moves data from a comma seperated file to Postgres
     """
-    # template_fields = ('sql',)
-    # template_ext = ('.sql',)
+   
     ui_color = '#D2B4DE'
 
     @apply_defaults
