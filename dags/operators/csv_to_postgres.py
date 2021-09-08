@@ -23,5 +23,6 @@ class LoadCsvtoPostgresOperator(BaseOperator):
             postgres.bulk_load(self.table, self.file_path)
         except Exception as err:
             self.log.error(err)
+            return err
         else:
             self.log.info(f"Loaded file {self.file_path} into table {self.table}")
