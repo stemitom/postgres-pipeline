@@ -55,7 +55,9 @@ fetch_data = PythonOperator(
     task_id="fetch_data",
     python_callable=_fetch_data,
     dag=dag,
-    op_kwargs={"outfile": "/tmp/data/raw/covid_data_{{ ds }}.json"},
+    op_kwargs={
+        "outfile": "/tmp/data/raw/covid_data_{{ ds }}.json"
+        }
 )
 
 transform_to_csv = PythonOperator(
@@ -75,8 +77,7 @@ normalize_covid_csv = PythonOperator(
             'source': "/tmp/data/raw/covid_data_{{ ds }}.csv",
             'target': "/tmp/data/stg/covid_data_{{ ds }}.csv"
         },
-        dag=dag
-
+        dag=dag,
     )
 
 create_covid_data_table = PostgresOperator(
@@ -91,7 +92,7 @@ load_csv_to_postgres_dwh = LoadCsvtoPostgresOperator(
     postgres_conn_id="covid_postgres",
     table="covid_data_normalized",
     file_path="/tmp/data/stg/covid_data_{{ ds }}.csv",
-    dag=dag
+    dag=dag,
 )
 
 fetch_data >> transform_to_csv >> normalize_covid_csv >> create_covid_data_table>> load_csv_to_postgres_dwh
