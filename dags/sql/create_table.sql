@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS covid_data;
+
 CREATE TABLE IF NOT EXISTS covid_data (
     date DATE PRIMARY KEY,
     case_count INT,
@@ -60,7 +62,7 @@ CREATE TABLE IF NOT EXISTS covid_data (
     si_hospitalized_count_7day_avg INT,
     si_death_count_7day_avg INT,
     si_all_death_count_7day_avg INT,
-    incomple INT
+    incomplete INT
 );
 
-TRUNCATE TABLE covid_data;
+-- TRUNCATE covid_data;
