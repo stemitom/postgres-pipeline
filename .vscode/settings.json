@@ -7,5 +7,8 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/__pycache__": true
+    },
+    "files.watcherExclude": {
+        "**/target": true
     }
 }
