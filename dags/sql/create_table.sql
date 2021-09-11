@@ -65,4 +65,8 @@ CREATE TABLE IF NOT EXISTS covid_data (
     incomplete INT
 );
 
+CREATE TABLE IF NOT EXISTS covid_test (
+    date DATE PRIMARY KEY,
+    case_count INT
+)
 -- TRUNCATE covid_data;
