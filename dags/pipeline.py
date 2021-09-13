@@ -95,4 +95,41 @@ load_csv_to_postgres_dwh = LoadCsvtoPostgresOperator(
     dag=dag,
 )
 
-fetch_data >> transform_to_csv >> normalize_covid_csv >> create_covid_data_table>> load_csv_to_postgres_dwh
+# fetch_data >> transform_to_csv >> normalize_covid_csv >> create_covid_data_table>> load_csv_to_postgres_dwh
+
+def _test_transform(infile, outfile):
+    pathlib.Path("/tmp/data/stg").mkdir(parents=True, exist_ok=True)
+    data = pd.read_json(infile)
+    data = data.set_index("date_of_interest")
+    data = data[['date_of_interest', 'case_count']]
+    data.to_csv(outfile)
+    logging.info(f"INFO: Processed {infile} and moved it to {outfile}")
+
+test_transform = PythonOperator(
+    task_id="test_transform",
+    python_callable=_test_transform,
+    dag=dag,
+    op_kwargs={
+        "infile": "/tmp/data/raw/covid_data_{{ ds }}.json",
+        "outfile": "/tmp/data/raw/covid_data_{{ ds }}.csv",
+    },
+
+)
+
+create_covid_test_table = PostgresOperator(
+    task_id="create_covid_test_table",
+    postgres_conn_id="covid_postgres",
+    sql="sql/create_test.sql",
+    dag=dag
+)
+
+
+test_data_load = LoadCsvtoPostgresOperator(
+    task_id='test_data_load',
+    postgres_conn_id="covid_postgres",
+    table="covid_test",
+    file_path="/tmp/data/stg/covid_data_{{ ds }}.csv",
+    dag=dag,
+)
+
+fetch_data >> test_transform >> normalize_covid_csv >> create_covid_test_table >> test_data_load
