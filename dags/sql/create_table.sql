@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS covid_data;
 
 CREATE TABLE IF NOT EXISTS covid_data (
-    date DATE PRIMARY KEY,
+    date_of_interest DATE PRIMARY KEY,
     case_count INT,
     probable_case_count INT,
     hospitalized_count INT,

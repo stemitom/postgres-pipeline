@@ -4,7 +4,7 @@ from airflow.utils.decorators import apply_defaults
 
 class LoadCsvtoPostgresOperator(BaseOperator):
     """
-    Moves data from a comma seperated file to Postgres
+    Moves data from a delimiter(tab) seperated file to Postgres
     """
     template_fields = ("file_path",)
 
@@ -22,6 +22,6 @@ class LoadCsvtoPostgresOperator(BaseOperator):
             postgres.bulk_load(self.table, self.file_path)
         except Exception as err:
             self.log.error(err)
-            return err
+            raise ValueError(err)
         else:
             self.log.info(f"Loaded file {self.file_path} into table {self.table}")
