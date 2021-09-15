@@ -50,7 +50,7 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Python3](https://www.python.org/downloads/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [Python3](https://www.python.org/downloads/) and [Docker-Compose](https://docs.docker.com/compose/install/) installed.
 
 ## :checkered_flag: Starting ##
 
