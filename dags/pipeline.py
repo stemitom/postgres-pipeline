@@ -91,7 +91,7 @@ create_covid_data_table = PostgresOperator(
 load_csv_to_postgres_dwh = LoadCsvtoPostgresOperator(
     task_id='load_to_covid_data_table',
     postgres_conn_id="covid_postgres",
-    table="covid_table",
+    table="covid_data",
     file_path="/tmp/data/stg/covid_data_{{ ds }}.csv",
     dag=dag,
 )
