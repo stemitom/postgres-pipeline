@@ -69,6 +69,8 @@ $ docker-compose up -d
 
 # The airflow server will initialize at <http://localhost:8080>
 ```
+## :check_mark: Todo ##
+- [ ] Add visualization with Metabase
 
 ## :memo: License ##
 
