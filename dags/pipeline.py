@@ -84,7 +84,7 @@ normalize_covid_csv = PythonOperator(
 create_covid_data_table = PostgresOperator(
     task_id="create_table_covid",
     postgres_conn_id="covid_postgres",
-    sql="sql/create_test.sql",
+    sql="sql/create_table.sql",
     dag=dag,
 )
 
