@@ -51,11 +51,9 @@ A simple pipeline infrastructure with ETL pipeline contained in a docker environ
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Apache Airflow](https://airflow.apache.org/)
+- [Postgres](https://www.postgresql.org/)
+- [Docker](https://docs.docker.com/compose/)
 
 ## :white_check_mark: Requirements ##
 
