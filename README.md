@@ -82,7 +82,7 @@ $ docker-compose up -d
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/stemitom" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/stemitom" target="_blank">Temiloluwa Samuel</a>
 
 &#xa0;
 
